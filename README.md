@@ -26,7 +26,9 @@ npm run storybook
 
 For later CLI publication, use your own `FIGMA_ACCESS_TOKEN` and `npx figma connect publish`. No token is stored in this repository. The initial publication uses the official Code Connect CLI. MCP registration was also checked, but only the CLI publication produced verified dynamic templates.
 
-Sources currently link to the `codex/pulse-code-connect` branch so they resolve while the PR is under review. After merging, replace that branch segment with `main` in the template source directives and icon batch, then republish.
+Code Connect sources link to `https://github.com/mnoritake-twigma/mnoritake-ds/tree/main`.
+
+Migrated from `mnoritake-figma/mnoritake-ds` on 2026-11-04, preserving its Git history. Figma library code-source connections (used by Make) must separately select this repository; publishing Code Connect templates does not configure that connection.
 
 ## Development
 

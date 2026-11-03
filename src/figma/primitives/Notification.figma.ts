@@ -1,5 +1,5 @@
 // url=<FIGMA_NOTIFICATION_NOTIFICATION>
-// source=https://github.com/mnoritake-figma/mnoritake-ds/blob/codex/pulse-code-connect/src/ui/primitives/Notification/Notification.tsx
+// source=https://github.com/mnoritake-twigma/mnoritake-ds/blob/main/src/ui/primitives/Notification/Notification.tsx
 // component=Notification
 
 import figma from "figma";

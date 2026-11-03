@@ -1,5 +1,5 @@
 // url=<FIGMA_TOOLTIP_TOOLTIP>
-// source=https://github.com/mnoritake-figma/mnoritake-ds/blob/codex/pulse-code-connect/src/ui/primitives/Tooltip/Tooltip.tsx
+// source=https://github.com/mnoritake-twigma/mnoritake-ds/blob/main/src/ui/primitives/Tooltip/Tooltip.tsx
 // component=Tooltip
 
 import figma from "figma";

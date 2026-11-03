@@ -1,5 +1,5 @@
 // url=<FIGMA_BUTTONS_BUTTON_DANGER>
-// source=https://github.com/mnoritake-figma/mnoritake-ds/blob/codex/pulse-code-connect/src/ui/primitives/Button/Button.tsx
+// source=https://github.com/mnoritake-twigma/mnoritake-ds/blob/main/src/ui/primitives/Button/Button.tsx
 // component=ButtonDanger
 
 import figma from "figma";

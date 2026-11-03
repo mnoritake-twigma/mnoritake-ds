@@ -1,5 +1,5 @@
 // url=<FIGMA_ACCORDION_ACCORDION>
-// source=https://github.com/mnoritake-figma/mnoritake-ds/blob/codex/pulse-code-connect/src/ui/primitives/Accordion/Accordion.tsx
+// source=https://github.com/mnoritake-twigma/mnoritake-ds/blob/main/src/ui/primitives/Accordion/Accordion.tsx
 // component=Accordion
 
 import figma from "figma";

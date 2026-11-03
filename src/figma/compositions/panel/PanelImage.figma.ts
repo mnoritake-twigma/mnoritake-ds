@@ -1,5 +1,5 @@
 // url=<FIGMA_SECTIONS_PANEL_IMAGE>
-// source=https://github.com/mnoritake-figma/mnoritake-ds/blob/codex/pulse-code-connect/src/ui/compositions/Sections/Panels.tsx
+// source=https://github.com/mnoritake-twigma/mnoritake-ds/blob/main/src/ui/compositions/Sections/Panels.tsx
 // component=Panel
 
 import figma from "figma"

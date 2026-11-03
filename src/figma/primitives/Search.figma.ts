@@ -1,5 +1,5 @@
 // url=<FIGMA_INPUTS_SEARCH>
-// source=https://github.com/mnoritake-figma/mnoritake-ds/blob/codex/pulse-code-connect/src/ui/primitives/Search/Search.tsx
+// source=https://github.com/mnoritake-twigma/mnoritake-ds/blob/main/src/ui/primitives/Search/Search.tsx
 // component=Search
 
 import figma from "figma";

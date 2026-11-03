@@ -1,5 +1,5 @@
 // url=<FIGMA_SECTIONS_CARD_GRID_ICON>
-// source=https://github.com/mnoritake-figma/mnoritake-ds/blob/codex/pulse-code-connect/src/ui/layout/Section/Section.tsx
+// source=https://github.com/mnoritake-twigma/mnoritake-ds/blob/main/src/ui/layout/Section/Section.tsx
 // component=Section
 
 import figma from "figma"

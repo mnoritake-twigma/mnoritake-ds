@@ -1,5 +1,5 @@
 // url=<FIGMA_FORMS_FORM_SHIPPING>
-// source=https://github.com/mnoritake-figma/mnoritake-ds/blob/codex/pulse-code-connect/src/ui/compositions/Forms/Forms.tsx
+// source=https://github.com/mnoritake-twigma/mnoritake-ds/blob/main/src/ui/compositions/Forms/Forms.tsx
 // component=FormBox
 
 import figma from "figma"

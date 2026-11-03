@@ -1,5 +1,5 @@
 // url=<FIGMA_INPUTS_SWITCH_FIELD>
-// source=https://github.com/mnoritake-figma/mnoritake-ds/blob/codex/pulse-code-connect/src/ui/primitives/Switch/Switch.tsx
+// source=https://github.com/mnoritake-twigma/mnoritake-ds/blob/main/src/ui/primitives/Switch/Switch.tsx
 // component=SwitchField
 
 import figma from "figma";

@@ -1,5 +1,5 @@
 // url=<FIGMA_SECTIONS_HERO_FORM>
-// source=https://github.com/mnoritake-figma/mnoritake-ds/blob/codex/pulse-code-connect/src/ui/compositions/Sections/Heroes.tsx
+// source=https://github.com/mnoritake-twigma/mnoritake-ds/blob/main/src/ui/compositions/Sections/Heroes.tsx
 // component=Hero
 
 import figma from "figma"

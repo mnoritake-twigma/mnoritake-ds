@@ -1,5 +1,5 @@
 // url=<FIGMA_MENU_MENU_SHORTCUT>
-// source=https://github.com/mnoritake-figma/mnoritake-ds/blob/codex/pulse-code-connect/src/ui/primitives/Menu/Menu.tsx
+// source=https://github.com/mnoritake-twigma/mnoritake-ds/blob/main/src/ui/primitives/Menu/Menu.tsx
 // component=MenuShortcut
 
 import figma from "figma"

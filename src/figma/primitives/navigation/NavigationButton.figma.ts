@@ -1,5 +1,5 @@
 // url=<FIGMA_NAVIGATION_NAVIGATION_BUTTON>
-// source=https://github.com/mnoritake-figma/mnoritake-ds/blob/codex/pulse-code-connect/src/ui/primitives/Navigation/Navigation.tsx
+// source=https://github.com/mnoritake-twigma/mnoritake-ds/blob/main/src/ui/primitives/Navigation/Navigation.tsx
 // component=NavigationButton
 
 import figma from "figma";

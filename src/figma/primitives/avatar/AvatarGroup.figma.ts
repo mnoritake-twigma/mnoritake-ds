@@ -1,5 +1,5 @@
 // url=<FIGMA_AVATARS_AVATAR_GROUP>
-// source=https://github.com/mnoritake-figma/mnoritake-ds/blob/codex/pulse-code-connect/src/ui/primitives/Avatar/Avatar.tsx
+// source=https://github.com/mnoritake-twigma/mnoritake-ds/blob/main/src/ui/primitives/Avatar/Avatar.tsx
 // component=AvatarGroup
 
 import figma from "figma"

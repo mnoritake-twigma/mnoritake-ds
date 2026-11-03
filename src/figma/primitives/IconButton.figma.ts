@@ -1,5 +1,5 @@
 // url=<FIGMA_BUTTONS_ICON_BUTTON>
-// source=https://github.com/mnoritake-figma/mnoritake-ds/blob/codex/pulse-code-connect/src/ui/primitives/IconButton/IconButton.tsx
+// source=https://github.com/mnoritake-twigma/mnoritake-ds/blob/main/src/ui/primitives/IconButton/IconButton.tsx
 // component=IconButton
 
 import figma from "figma";

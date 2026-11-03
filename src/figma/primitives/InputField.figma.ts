@@ -1,5 +1,5 @@
 // url=<FIGMA_INPUTS_INPUT_FIELD>
-// source=https://github.com/mnoritake-figma/mnoritake-ds/blob/codex/pulse-code-connect/src/ui/primitives/Input/Input.tsx
+// source=https://github.com/mnoritake-twigma/mnoritake-ds/blob/main/src/ui/primitives/Input/Input.tsx
 // component=InputField
 
 import figma from "figma";

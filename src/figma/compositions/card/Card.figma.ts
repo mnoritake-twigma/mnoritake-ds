@@ -1,5 +1,5 @@
 // url=<FIGMA_CARDS_CARD>
-// source=https://github.com/mnoritake-figma/mnoritake-ds/blob/codex/pulse-code-connect/src/ui/compositions/Cards/Cards.tsx
+// source=https://github.com/mnoritake-twigma/mnoritake-ds/blob/main/src/ui/compositions/Cards/Cards.tsx
 // component=Card
 
 import figma from "figma"

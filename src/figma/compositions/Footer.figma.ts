@@ -1,5 +1,5 @@
 // url=<FIGMA_SECTIONS_FOOTER>
-// source=https://github.com/mnoritake-figma/mnoritake-ds/blob/codex/pulse-code-connect/src/ui/compositions/Footers/Footers.tsx
+// source=https://github.com/mnoritake-twigma/mnoritake-ds/blob/main/src/ui/compositions/Footers/Footers.tsx
 // component=Footer
 
 import figma from "figma"

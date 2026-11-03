@@ -1,5 +1,5 @@
 // url=<FIGMA_PAGINATION_PAGINATION_GAP>
-// source=https://github.com/mnoritake-figma/mnoritake-ds/blob/codex/pulse-code-connect/src/ui/primitives/Pagination/Pagination.tsx
+// source=https://github.com/mnoritake-twigma/mnoritake-ds/blob/main/src/ui/primitives/Pagination/Pagination.tsx
 // component=PaginationGap
 
 import figma from "figma"

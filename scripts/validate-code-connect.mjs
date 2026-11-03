@@ -13,7 +13,7 @@ for(const d of docs){
  assert(d.templateData.isParserless);assert(d.template.includes('export default'));
  assert.equal(d.label,'React');assert(d.component);
  const source=new URL(d.source);assert.equal(source.host,'github.com');
- const prefix='/mnoritake-figma/mnoritake-ds/blob/codex/pulse-code-connect/';assert(source.pathname.startsWith(prefix));
+ const prefix='/mnoritake-twigma/mnoritake-ds/blob/main/';assert(source.pathname.startsWith(prefix));
  assert(fs.existsSync(source.pathname.slice(prefix.length)),`Missing source ${d.source}`);
 }
 let enumMappings=0,checkedProperties=0;

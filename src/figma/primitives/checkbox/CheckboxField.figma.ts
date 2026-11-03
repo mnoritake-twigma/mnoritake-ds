@@ -1,5 +1,5 @@
 // url=<FIGMA_INPUTS_CHECKBOX_FIELD>
-// source=https://github.com/mnoritake-figma/mnoritake-ds/blob/codex/pulse-code-connect/src/ui/primitives/Checkbox/Checkbox.tsx
+// source=https://github.com/mnoritake-twigma/mnoritake-ds/blob/main/src/ui/primitives/Checkbox/Checkbox.tsx
 // component=CheckboxField
 
 import figma from "figma";

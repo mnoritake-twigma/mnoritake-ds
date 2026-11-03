@@ -1,5 +1,5 @@
 // url=<FIGMA_DIALOG_DIALOG>
-// source=https://github.com/mnoritake-figma/mnoritake-ds/blob/codex/pulse-code-connect/src/ui/primitives/Dialog/Dialog.tsx
+// source=https://github.com/mnoritake-twigma/mnoritake-ds/blob/main/src/ui/primitives/Dialog/Dialog.tsx
 // component=DialogModal
 
 import figma from "figma"

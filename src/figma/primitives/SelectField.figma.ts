@@ -1,5 +1,5 @@
 // url=<FIGMA_INPUTS_SELECT_FIELD>
-// source=https://github.com/mnoritake-figma/mnoritake-ds/blob/codex/pulse-code-connect/src/ui/primitives/Select/Select.tsx
+// source=https://github.com/mnoritake-twigma/mnoritake-ds/blob/main/src/ui/primitives/Select/Select.tsx
 // component=SelectField
 
 import figma from "figma";

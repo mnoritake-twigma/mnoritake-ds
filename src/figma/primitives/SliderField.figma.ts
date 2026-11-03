@@ -1,5 +1,5 @@
 // url=<FIGMA_INPUTS_SLIDER_FIELD>
-// source=https://github.com/mnoritake-figma/mnoritake-ds/blob/codex/pulse-code-connect/src/ui/primitives/Slider/Slider.tsx
+// source=https://github.com/mnoritake-twigma/mnoritake-ds/blob/main/src/ui/primitives/Slider/Slider.tsx
 // component=SliderField
 
 import figma from "figma";
