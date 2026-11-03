@@ -1,0 +1,122 @@
+[
+  {
+    "id": "5:14114",
+    "name": "AI Sidebar",
+    "type": "COMPONENT",
+    "page": "AI Chat"
+  },
+  {
+    "id": "5:14146",
+    "name": "AI Chat -> Chat Response",
+    "type": "COMPONENT",
+    "page": "AI Chat"
+  },
+  {
+    "id": "5:14150",
+    "name": "AI Chat -> Code Block",
+    "type": "COMPONENT",
+    "page": "AI Chat"
+  },
+  {
+    "id": "5:14155",
+    "name": "AI -> Conversation",
+    "type": "COMPONENT",
+    "page": "AI Chat"
+  },
+  {
+    "id": "5:14169",
+    "name": "AI Chat -> User message",
+    "type": "COMPONENT",
+    "page": "AI Chat"
+  },
+  {
+    "id": "5:14171",
+    "name": "AI Chat Box",
+    "type": "COMPONENT_SET",
+    "page": "AI Chat"
+  },
+  {
+    "id": "5:14397",
+    "name": "Calendar",
+    "type": "COMPONENT",
+    "page": "Calendar"
+  },
+  {
+    "id": "5:14526",
+    "name": "Calendar Button",
+    "type": "COMPONENT_SET",
+    "page": "Calendar"
+  },
+  {
+    "id": "5:14541",
+    "name": "Calendar Select Group",
+    "type": "COMPONENT",
+    "page": "Calendar"
+  },
+  {
+    "id": "5:14556",
+    "name": "Calendar Month Field",
+    "type": "COMPONENT",
+    "page": "Calendar"
+  },
+  {
+    "id": "5:14575",
+    "name": "Calendar Year Field",
+    "type": "COMPONENT",
+    "page": "Calendar"
+  },
+  {
+    "id": "5:14867",
+    "name": "Card (Slot)",
+    "type": "COMPONENT",
+    "page": "Cards"
+  },
+  {
+    "id": "6:219",
+    "name": "Date Picker Field",
+    "type": "COMPONENT_SET",
+    "page": "Inputs"
+  },
+  {
+    "id": "6:264",
+    "name": "Date Input Field",
+    "type": "COMPONENT_SET",
+    "page": "Inputs"
+  },
+  {
+    "id": "7:1150",
+    "name": "Form (Slot)",
+    "type": "COMPONENT",
+    "page": "Forms"
+  },
+  {
+    "id": "7:2915",
+    "name": "Hero (Slot)",
+    "type": "COMPONENT_SET",
+    "page": "Sections"
+  },
+  {
+    "id": "7:3080",
+    "name": "AI Chatbot",
+    "type": "COMPONENT_SET",
+    "page": "Sections"
+  },
+  {
+    "id": "12:186",
+    "name": "_Component Annotation",
+    "type": "COMPONENT_SET",
+    "page": "Utilities"
+  },
+  {
+    "id": "12:206",
+    "name": "_Component Note",
+    "type": "COMPONENT_SET",
+    "page": "Utilities"
+  },
+  {
+    "id": "12:207",
+    "name": ".Slot",
+    "type": "COMPONENT",
+    "page": "Utilities"
+  }
+]

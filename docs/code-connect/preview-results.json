@@ -1,0 +1,875 @@
+[
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-2920",
+    "nodeId": "7:2920",
+    "filePath": "src/figma/compositions/Footer.figma.ts",
+    "success": true,
+    "snippet": "<Footer />",
+    "language": "React",
+    "component": "Footer"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=5-14602",
+    "nodeId": "5:14602",
+    "filePath": "src/figma/compositions/card/Card.figma.ts",
+    "success": true,
+    "snippet": "<Card asset={<IconInfo size=\"32\" />} direction=\"horizontal\" variant=\"default\">\n      <TextHeading>Title</TextHeading>\n      <Text>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </Text>\n      <ButtonGroup\n       align=\"start\"\n    >\n      <Button\n      onPress={() => {}}\n       variant=\"neutral\"\n       size=\"medium\"\n      \n    >\n      \n      Button\n      \n    </Button>\n    </ButtonGroup>\n    </Card>",
+    "language": "React",
+    "component": "Card"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=5-14752",
+    "nodeId": "5:14752",
+    "filePath": "src/figma/compositions/card/PricingCard.figma.ts",
+    "success": true,
+    "snippet": "<PricingCard\n      heading=\"Title\"\n      action=\"Button\"\n      \n      actionVariant=\"primary\"\n      onAction={() => {}}\n      listSlot={<TextList density=\"default\"><TextListItem>List item</TextListItem><TextListItem>List item</TextListItem><TextListItem>List item</TextListItem><TextListItem>List item</TextListItem><TextListItem>List item</TextListItem></TextList>}\n      interval=\"month\"\n      sku=\"example_sku\"\n      price=\"50\"\n      priceCurrency=\"$\"\n      priceLabel=\"/ mo\"\n      size=\"large\"\n      variant=\"stroke\"\n    />",
+    "language": "React",
+    "component": "PricingCard"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=5-14703",
+    "nodeId": "5:14703",
+    "filePath": "src/figma/compositions/card/ProductInfoCard.figma.ts",
+    "success": true,
+    "snippet": "<ProductInfoCard\n      asset={\n        <Image\n          src={placeholder}\n          size=\"medium\"\n          aspectRatio=\"natural\"\n          alt=\"Always describe images\"\n        />\n      }\n      rating={4.5}\n      heading=\"Text\"\n      price=\"$0\"\n      description=\"Body text.\"\n    />",
+    "language": "React",
+    "component": "ProductInfoCard"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=5-14729",
+    "nodeId": "5:14729",
+    "filePath": "src/figma/compositions/card/ReviewCard.figma.ts",
+    "success": true,
+    "snippet": "<ReviewCard\n      stars={5}\n      src={placeholder}\n      title=\"Review title\"\n      body=\"Review body\"\n      date=\"Date\"\n      name=\"Reviewer name\"\n    />",
+    "language": "React",
+    "component": "ReviewCard"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=5-14721",
+    "nodeId": "5:14721",
+    "filePath": "src/figma/compositions/card/StatsCard.figma.ts",
+    "success": true,
+    "snippet": "<StatsCard description=\"Body text\" stat=\"100\" icon={<IconClock size=\"48\" />} />",
+    "language": "React",
+    "component": "StatsCard"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=5-14712",
+    "nodeId": "5:14712",
+    "filePath": "src/figma/compositions/card/TestimonialCard.figma.ts",
+    "success": true,
+    "snippet": "<TestimonialCard\n      heading=\"“Quote”\"\n      src={placeholder}\n      name=\"Title\"\n      username=\"Description\"\n    />",
+    "language": "React",
+    "component": "TestimonialCard"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-1381",
+    "nodeId": "7:1381",
+    "filePath": "src/figma/compositions/card-grid/CardGridContentList.figma.ts",
+    "success": true,
+    "snippet": "<Section padding=\"1200\">\n      <Flex container gap=\"1200\" direction=\"column\" alignSecondary=\"stretch\">\n        <TextContentHeading\n      align=\"start\"\n       heading=\"Heading\"\n       subheading=\"Subheading\"\n    />\n        <FlexItem>\n          <Flex wrap direction=\"column\" gap=\"1200\">\n            <Card asset={<Image alt=\"Always use alt text\" aspectRatio=\"1-1\" size=\"small\" />} direction=\"horizontal\" variant=\"stroke\">\n      <TextHeading>Title</TextHeading>\n      <Text>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </Text>\n      <ButtonGroup\n       align=\"start\"\n    >\n      <Button\n      onPress={() => {}}\n       variant=\"neutral\"\n       size=\"medium\"\n      \n    >\n      \n      Button\n      \n    </Button>\n    </ButtonGroup>\n    </Card><Card asset={<Image alt=\"Always use alt text\" aspectRatio=\"1-1\" size=\"small\" />} direction=\"horizontal\" variant=\"stroke\">\n      <TextHeading>Title</TextHeading>\n      <Text>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </Text>\n      <ButtonGroup\n       align=\"start\"\n    >\n      <Button\n      onPress={() => {}}\n       variant=\"neutral\"\n       size=\"medium\"\n      \n    >\n      \n      Button\n      \n    </Button>\n    </ButtonGroup>\n    </Card><Card asset={<Image alt=\"Always use alt text\" aspectRatio=\"1-1\" size=\"small\" />} direction=\"horizontal\" variant=\"stroke\">\n      <TextHeading>Title</TextHeading>\n      <Text>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </Text>\n      <ButtonGroup\n       align=\"start\"\n    >\n      <Button\n      onPress={() => {}}\n       variant=\"neutral\"\n       size=\"medium\"\n      \n    >\n      \n      Button\n      \n    </Button>\n    </ButtonGroup>\n    </Card>\n          </Flex>\n        </FlexItem>\n      </Flex>\n    </Section>",
+    "language": "React",
+    "component": "Section"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-1174",
+    "nodeId": "7:1174",
+    "filePath": "src/figma/compositions/card-grid/CardGridIcon.figma.ts",
+    "success": true,
+    "snippet": "<Section padding=\"1200\">\n      <Flex container gap=\"1200\" direction=\"column\" alignSecondary=\"stretch\">\n        <TextContentHeading\n      align=\"start\"\n       heading=\"Heading\"\n       subheading=\"Subheading\"\n    />\n        <FlexItem>\n          <Flex wrap gap=\"1200\">\n            <Card asset={<IconInfo size=\"32\" />} direction=\"horizontal\" variant=\"default\">\n      <TextHeading>Title</TextHeading>\n      <Text>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </Text>\n      \n    </Card><Card asset={<IconInfo size=\"32\" />} direction=\"horizontal\" variant=\"default\">\n      <TextHeading>Title</TextHeading>\n      <Text>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </Text>\n      \n    </Card><Card asset={<IconInfo size=\"32\" />} direction=\"horizontal\" variant=\"default\">\n      <TextHeading>Title</TextHeading>\n      <Text>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </Text>\n      \n    </Card><Card asset={<IconInfo size=\"32\" />} direction=\"horizontal\" variant=\"default\">\n      <TextHeading>Title</TextHeading>\n      <Text>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </Text>\n      \n    </Card><Card asset={<IconInfo size=\"32\" />} direction=\"horizontal\" variant=\"default\">\n      <TextHeading>Title</TextHeading>\n      <Text>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </Text>\n      \n    </Card><Card asset={<IconInfo size=\"32\" />} direction=\"horizontal\" variant=\"default\">\n      <TextHeading>Title</TextHeading>\n      <Text>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </Text>\n      \n    </Card>\n          </Flex>\n        </FlexItem>\n      </Flex>\n    </Section>",
+    "language": "React",
+    "component": "Section"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-1282",
+    "nodeId": "7:1282",
+    "filePath": "src/figma/compositions/card-grid/CardGridImage.figma.ts",
+    "success": true,
+    "snippet": "<Section padding=\"1200\">\n      <Flex container gap=\"1200\" direction=\"column\" alignSecondary=\"stretch\">\n        <TextContentHeading\n      align=\"start\"\n       heading=\"Heading\"\n       subheading=\"Subheading\"\n    />\n        <FlexItem>\n          <Flex wrap type=\"third\" gap=\"1200\">\n            <Card asset={<Image alt=\"Always use alt text\" aspectRatio=\"1-1\" size=\"small\" />} direction=\"horizontal\" variant=\"stroke\">\n      <TextHeading>Title</TextHeading>\n      <Text>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </Text>\n      \n    </Card><Card asset={<Image alt=\"Always use alt text\" aspectRatio=\"1-1\" size=\"small\" />} direction=\"horizontal\" variant=\"stroke\">\n      <TextHeading>Title</TextHeading>\n      <Text>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </Text>\n      \n    </Card><Card asset={<Image alt=\"Always use alt text\" aspectRatio=\"1-1\" size=\"small\" />} direction=\"horizontal\" variant=\"stroke\">\n      <TextHeading>Title</TextHeading>\n      <Text>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </Text>\n      \n    </Card><Card asset={<Image alt=\"Always use alt text\" aspectRatio=\"1-1\" size=\"small\" />} direction=\"horizontal\" variant=\"stroke\">\n      <TextHeading>Title</TextHeading>\n      <Text>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </Text>\n      \n    </Card><Card asset={<Image alt=\"Always use alt text\" aspectRatio=\"1-1\" size=\"small\" />} direction=\"horizontal\" variant=\"stroke\">\n      <TextHeading>Title</TextHeading>\n      <Text>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </Text>\n      \n    </Card><Card asset={<Image alt=\"Always use alt text\" aspectRatio=\"1-1\" size=\"small\" />} direction=\"horizontal\" variant=\"stroke\">\n      <TextHeading>Title</TextHeading>\n      <Text>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </Text>\n      \n    </Card>\n          </Flex>\n        </FlexItem>\n      </Flex>\n    </Section>",
+    "language": "React",
+    "component": "Section"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-1474",
+    "nodeId": "7:1474",
+    "filePath": "src/figma/compositions/card-grid/CardGridPricing.figma.ts",
+    "success": true,
+    "snippet": "<Section padding=\"1200\"><Flex container direction=\"column\" gap=\"1200\"><Navigation direction=\"row\"><NavigationPill\n     isSelected\n  >\n    Monthly\n  </NavigationPill><NavigationPill\n    \n  >\n    Yearly\n  </NavigationPill></Navigation><Flex wrap gap=\"1200\"><PricingCard\n      heading=\"Title\"\n      action=\"Button\"\n      \n      actionVariant=\"primary\"\n      onAction={() => {}}\n      listSlot={<TextList density=\"default\"><TextListItem>List item</TextListItem><TextListItem>List item</TextListItem><TextListItem>List item</TextListItem><TextListItem>List item</TextListItem><TextListItem>List item</TextListItem></TextList>}\n      interval=\"month\"\n      sku=\"example_sku\"\n      price=\"50\"\n      priceCurrency=\"$\"\n      priceLabel=\"/ mo\"\n      size=\"large\"\n      variant=\"stroke\"\n    /><PricingCard\n      heading=\"Title\"\n      action=\"Button\"\n      \n      actionVariant=\"neutral\"\n      onAction={() => {}}\n      listSlot={<TextList density=\"default\"><TextListItem>List item</TextListItem><TextListItem>List item</TextListItem><TextListItem>List item</TextListItem><TextListItem>List item</TextListItem><TextListItem>List item</TextListItem></TextList>}\n      interval=\"month\"\n      sku=\"example_sku\"\n      price=\"50\"\n      priceCurrency=\"$\"\n      priceLabel=\"/ mo\"\n      size=\"large\"\n      variant=\"brand\"\n    /><PricingCard\n      heading=\"Title\"\n      action=\"Button\"\n      \n      actionVariant=\"primary\"\n      onAction={() => {}}\n      listSlot={<TextList density=\"default\"><TextListItem>List item</TextListItem><TextListItem>List item</TextListItem><TextListItem>List item</TextListItem><TextListItem>List item</TextListItem><TextListItem>List item</TextListItem></TextList>}\n      interval=\"month\"\n      sku=\"example_sku\"\n      price=\"50\"\n      priceCurrency=\"$\"\n      priceLabel=\"/ mo\"\n      size=\"large\"\n      variant=\"stroke\"\n    /></Flex></Flex></Section>",
+    "language": "React",
+    "component": "Section"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-1889",
+    "nodeId": "7:1889",
+    "filePath": "src/figma/compositions/card-grid/CardGridReviews.figma.ts",
+    "success": true,
+    "snippet": "<Section padding=\"1200\">\n      <Flex container gap=\"1200\" direction=\"column\" alignSecondary=\"stretch\">\n        <TextHeading>Latest reviews</TextHeading>\n        <FlexItem>\n          <Flex wrap type=\"third\" gap=\"1200\">\n            <ReviewCard\n      stars={5}\n      src={placeholder}\n      title=\"Review title\"\n      body=\"Review body\"\n      date=\"Date\"\n      name=\"Reviewer name\"\n    /><ReviewCard\n      stars={5}\n      src={placeholder}\n      title=\"Review title\"\n      body=\"Review body\"\n      date=\"Date\"\n      name=\"Reviewer name\"\n    /><ReviewCard\n      stars={5}\n      src={placeholder}\n      title=\"Review title\"\n      body=\"Review body\"\n      date=\"Date\"\n      name=\"Reviewer name\"\n    />\n          </Flex>\n        </FlexItem>\n      </Flex>\n    </Section>",
+    "language": "React",
+    "component": "Section"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-1763",
+    "nodeId": "7:1763",
+    "filePath": "src/figma/compositions/card-grid/CardGridTestimonials.figma.ts",
+    "success": true,
+    "snippet": "<Section padding=\"1200\">\n      <Flex container gap=\"1200\" direction=\"column\" alignSecondary=\"stretch\">\n        <TextContentHeading\n      align=\"start\"\n       heading=\"Heading\"\n       subheading=\"Subheading\"\n    />\n        <FlexItem>\n          <Flex wrap type=\"third\" gap=\"1200\">\n            <TestimonialCard\n      heading=\"“Quote”\"\n      src={placeholder}\n      name=\"Title\"\n      username=\"Description\"\n    /><TestimonialCard\n      heading=\"“Quote”\"\n      src={placeholder}\n      name=\"Title\"\n      username=\"Description\"\n    /><TestimonialCard\n      heading=\"“Quote”\"\n      src={placeholder}\n      name=\"Title\"\n      username=\"Description\"\n    /><TestimonialCard\n      heading=\"“Quote”\"\n      src={placeholder}\n      name=\"Title\"\n      username=\"Description\"\n    /><TestimonialCard\n      heading=\"“Quote”\"\n      src={placeholder}\n      name=\"Title\"\n      username=\"Description\"\n    /><TestimonialCard\n      heading=\"“Quote”\"\n      src={placeholder}\n      name=\"Title\"\n      username=\"Description\"\n    />\n          </Flex>\n        </FlexItem>\n      </Flex>\n    </Section>",
+    "language": "React",
+    "component": "Section"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-1076",
+    "nodeId": "7:1076",
+    "filePath": "src/figma/compositions/form/FormContact.figma.ts",
+    "success": true,
+    "snippet": "<FormBox onSubmit={() => {}}><InputField\n      \n      \n       label=\"Name\"\n      \n      \n       placeholder=\"Value\"\n    /><InputField\n      \n      \n       label=\"Surname\"\n      \n      \n       placeholder=\"Value\"\n    /><InputField\n      \n      \n       label=\"Email\"\n      \n      \n       placeholder=\"Value\"\n    /><TextareaField\n      \n      \n       label=\"Message\"\n      \n      \n       placeholder=\"Value\"\n    /><ButtonGroup\n       align=\"justify\"\n    >\n      <Button\n      onPress={() => {}}\n       variant=\"primary\"\n       size=\"medium\"\n      \n    >\n      \n      Submit\n      \n    </Button>\n    </ButtonGroup></FormBox>",
+    "language": "React",
+    "component": "FormBox"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-1152",
+    "nodeId": "7:1152",
+    "filePath": "src/figma/compositions/form/FormForgotPassword.figma.ts",
+    "success": true,
+    "snippet": "<FormBox onSubmit={() => {}}><InputField\n      \n      \n       label=\"Email\"\n      \n      \n       placeholder=\"Value\"\n    /><ButtonGroup\n       align=\"center\"\n    >\n      <Button\n      onPress={() => {}}\n       variant=\"subtle\"\n       size=\"medium\"\n      \n    >\n      \n      Cancel\n      \n    </Button><Button\n      onPress={() => {}}\n       variant=\"primary\"\n       size=\"medium\"\n      \n    >\n      \n      Reset Password\n      \n    </Button>\n    </ButtonGroup></FormBox>",
+    "language": "React",
+    "component": "FormBox"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-1044",
+    "nodeId": "7:1044",
+    "filePath": "src/figma/compositions/form/FormLogIn.figma.ts",
+    "success": true,
+    "snippet": "<FormBox onSubmit={() => {}}><InputField\n      \n      \n       label=\"Email\"\n      \n      \n       placeholder=\"Value\"\n    /><InputField\n      \n      \n       label=\"Password\"\n      \n      \n       placeholder=\"Value\"\n    /><ButtonGroup\n       align=\"justify\"\n    >\n      <Button\n      onPress={() => {}}\n       variant=\"primary\"\n       size=\"medium\"\n      \n    >\n      \n      Sign In\n      \n    </Button>\n    </ButtonGroup><TextLink href=\"#\">Forgot password?</TextLink></FormBox>",
+    "language": "React",
+    "component": "FormBox"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-1065",
+    "nodeId": "7:1065",
+    "filePath": "src/figma/compositions/form/FormNewsletter.figma.ts",
+    "success": true,
+    "snippet": "<Form singleLine onSubmit={() => {}}>\n      <Input\n      \n      \n      \n      \n       defaultValue=\"you@example.com\"\n      \n    /><Button\n      onPress={() => {}}\n       variant=\"primary\"\n       size=\"medium\"\n      \n    >\n      \n      Submit\n      \n    </Button>\n    </Form>",
+    "language": "React",
+    "component": "FormBox"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-1012",
+    "nodeId": "7:1012",
+    "filePath": "src/figma/compositions/form/FormRegister.figma.ts",
+    "success": true,
+    "snippet": "<FormBox onSubmit={() => {}}><InputField\n      \n      \n       label=\"Email\"\n      \n      \n       placeholder=\"Value\"\n    /><InputField\n      \n      \n       label=\"Password\"\n      \n      \n       placeholder=\"Value\"\n    /><CheckboxField\n       label=\"Label\"\n       description=\"Description\"\n       defaultSelected\n      \n      \n    /><ButtonGroup\n       align=\"justify\"\n    >\n      <Button\n      onPress={() => {}}\n       variant=\"primary\"\n       size=\"medium\"\n      \n    >\n      \n      Register\n      \n    </Button>\n    </ButtonGroup></FormBox>",
+    "language": "React",
+    "component": "FormBox"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-1108",
+    "nodeId": "7:1108",
+    "filePath": "src/figma/compositions/form/FormShipping.figma.ts",
+    "success": true,
+    "snippet": "<FormBox onSubmit={() => {}}>\n      <Flex direction=\"column\" gap=\"100\">\n        <Text>We ship within 2 working days</Text>\n      </Flex>\n      <InputField\n      \n      \n       label=\"Full Name\"\n      \n      \n       placeholder=\"Value\"\n    /><SelectField\n  label=\"Location\" \n    errorMessage=\"Error\"\n   defaultSelectedKey=\"Value\"  \n ><SelectItem id=\"Value\">Value</SelectItem></SelectField><TextareaField\n      \n      \n       label=\"Delivery note\"\n      \n      \n       placeholder=\"Value\"\n    /><CheckboxField\n       label=\"I accept the terms\"\n       description=\"Read our T&Cs\"\n       defaultSelected\n      \n      \n    /><ButtonGroup\n       align=\"justify\"\n    >\n      <Button\n      onPress={() => {}}\n       variant=\"primary\"\n       size=\"medium\"\n      \n    >\n      \n      Save shipping information\n      \n    </Button>\n    </ButtonGroup>\n    </FormBox>",
+    "language": "React",
+    "component": "FormBox"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-3217",
+    "nodeId": "7:3217",
+    "filePath": "src/figma/compositions/header/Header.figma.ts",
+    "success": true,
+    "snippet": "<Header />",
+    "language": "React",
+    "component": "Header"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-3311",
+    "nodeId": "7:3311",
+    "filePath": "src/figma/compositions/header/HeaderAuth.figma.ts",
+    "success": true,
+    "snippet": "<HeaderAuth />",
+    "language": "React",
+    "component": "HeaderAuth"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-2726",
+    "nodeId": "7:2726",
+    "filePath": "src/figma/compositions/hero/HeroActions.figma.ts",
+    "success": true,
+    "snippet": "<Hero padding=\"1600\" variant=\"subtle\"><TextContentTitle\n      align=\"center\"\n       title=\"Title\"\n       subtitle=\"Subtitle\"\n    /><ButtonGroup\n       align=\"justify\"\n    >\n      <Button\n      onPress={() => {}}\n       variant=\"neutral\"\n       size=\"medium\"\n      \n    >\n      \n      Button\n      \n    </Button><Button\n      onPress={() => {}}\n       variant=\"primary\"\n       size=\"medium\"\n      \n    >\n      \n      Button\n      \n    </Button>\n    </ButtonGroup></Hero>",
+    "language": "React",
+    "component": "Hero"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-2717",
+    "nodeId": "7:2717",
+    "filePath": "src/figma/compositions/hero/HeroBasic.figma.ts",
+    "success": true,
+    "snippet": "<Hero padding=\"1600\" variant=\"subtle\"><TextContentTitle\n      align=\"center\"\n       title=\"Title\"\n       subtitle=\"Subtitle\"\n    /></Hero>",
+    "language": "React",
+    "component": "Hero"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-2789",
+    "nodeId": "7:2789",
+    "filePath": "src/figma/compositions/hero/HeroForm.figma.ts",
+    "success": true,
+    "snippet": "<Hero padding=\"1600\" variant=\"subtle\"><TextContentTitle\n      align=\"center\"\n       title=\"Title\"\n       subtitle=\"Subtitle\"\n    /><FormBox onSubmit={() => {}}><InputField\n      \n      \n       label=\"Name\"\n      \n      \n       placeholder=\"Value\"\n    /><InputField\n      \n      \n       label=\"Surname\"\n      \n      \n       placeholder=\"Value\"\n    /><InputField\n      \n      \n       label=\"Email\"\n      \n      \n       placeholder=\"Value\"\n    /><TextareaField\n      \n      \n       label=\"Message\"\n      \n      \n       placeholder=\"Value\"\n    /><ButtonGroup\n       align=\"justify\"\n    >\n      <Button\n      onPress={() => {}}\n       variant=\"primary\"\n       size=\"medium\"\n      \n    >\n      \n      Submit\n      \n    </Button>\n    </ButtonGroup></FormBox></Hero>",
+    "language": "React",
+    "component": "Hero"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-2888",
+    "nodeId": "7:2888",
+    "filePath": "src/figma/compositions/hero/HeroImage.figma.ts",
+    "success": true,
+    "snippet": "<Hero padding=\"1600\" variant=\"image\" src={placeholder}>\n      <TextContentTitle\n      align=\"center\"\n       title=\"Title\"\n       subtitle=\"Subtitle\"\n    /><ButtonGroup\n       align=\"center\"\n    >\n      <Button\n      onPress={() => {}}\n       variant=\"neutral\"\n       size=\"medium\"\n      \n    >\n      \n      Button\n      \n    </Button><Button\n      onPress={() => {}}\n       variant=\"primary\"\n       size=\"medium\"\n      \n    >\n      \n      Button\n      \n    </Button>\n    </ButtonGroup>\n    </Hero>",
+    "language": "React",
+    "component": "Hero"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-2758",
+    "nodeId": "7:2758",
+    "filePath": "src/figma/compositions/hero/HeroNewsletter.figma.ts",
+    "success": true,
+    "snippet": "<Hero padding=\"1600\" variant=\"subtle\"><TextContentTitle\n      align=\"center\"\n       title=\"Title\"\n       subtitle=\"Subtitle\"\n    /><Form singleLine onSubmit={() => {}}>\n      <Input\n      \n      \n      \n      \n       defaultValue=\"you@example.com\"\n      \n    /><Button\n      onPress={() => {}}\n       variant=\"primary\"\n       size=\"medium\"\n      \n    >\n      \n      Submit\n      \n    </Button>\n    </Form></Hero>",
+    "language": "React",
+    "component": "Hero"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-2048",
+    "nodeId": "7:2048",
+    "filePath": "src/figma/compositions/page/PageAccordion.figma.ts",
+    "success": true,
+    "snippet": "<Section padding=\"1600\">\n      <Flex container alignSecondary=\"center\" direction=\"column\" gap=\"1200\">\n        <TextContentHeading\n      align=\"center\"\n       heading=\"Heading\"\n       subheading=\"Subheading\"\n    />\n        <FlexItem>\n          <Flex container type=\"third\" alignPrimary=\"center\">\n            <FlexItem size=\"major\"><Accordion><AccordionItem  title=\"Title\" children=\"Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.\" /><AccordionItem  title=\"Title\" children=\"Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.\" /><AccordionItem  title=\"Title\" children=\"Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.\" /><AccordionItem  title=\"Title\" children=\"Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.\" /></Accordion></FlexItem>\n          </Flex>\n        </FlexItem>\n      </Flex>\n    </Section>",
+    "language": "React",
+    "component": "Section"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-2624",
+    "nodeId": "7:2624",
+    "filePath": "src/figma/compositions/page/PageNewsletter.figma.ts",
+    "success": true,
+    "snippet": "<Section padding=\"1600\">\n      <Flex\n        container\n        wrap\n        gap=\"1200\"\n        direction=\"column\"\n        alignPrimary=\"center\"\n        alignSecondary=\"center\"\n        type=\"third\"\n      >\n        <TextContentHeading\n      align=\"center\"\n       heading=\"Follow the latest trends\"\n       subheading=\"With our daily newsletter\"\n    /><Form singleLine onSubmit={() => {}}>\n      <Input\n      \n      \n      \n      \n       defaultValue=\"you@example.com\"\n      \n    /><Button\n      onPress={() => {}}\n       variant=\"primary\"\n       size=\"medium\"\n      \n    >\n      \n      Submit\n      \n    </Button>\n    </Form>\n      </Flex>\n    </Section>",
+    "language": "React",
+    "component": "Section"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-2145",
+    "nodeId": "7:2145",
+    "filePath": "src/figma/compositions/page/PageProduct.figma.ts",
+    "success": true,
+    "snippet": "<Section padding=\"1600\">\n      <Flex container type=\"half\" wrap gap=\"1200\">\n        <Image\n          src={placeholder}\n          alt=\"Always use image alt\"\n          size=\"large\"\n          aspectRatio=\"4-3\"\n        />\n        <FlexItem size=\"half\">\n          <Flex direction=\"column\" gap=\"600\" alignSecondary=\"stretch\">\n            <TextHeading>Text Heading</TextHeading><Tag\n      \n       variant=\"secondary\"\n       scheme=\"positive\"\n    >\n      Tag\n    </Tag><TextPrice\n      \n      size=\"large\"\n       currency=\"$\"\n       price=\"50\"\n    /><Text>Text</Text><SelectField\n  label=\"Label\" \n    errorMessage=\"Error\"\n   defaultSelectedKey=\"Value\"  \n ><SelectItem id=\"Value\">Value</SelectItem></SelectField><SelectField\n  label=\"Label\" \n    errorMessage=\"Error\"\n   defaultSelectedKey=\"Value\"  \n ><SelectItem id=\"Value\">Value</SelectItem></SelectField><Button\n      onPress={() => {}}\n       variant=\"primary\"\n       size=\"medium\"\n      \n    >\n      \n      Button\n      \n    </Button><Accordion><AccordionItem defaultExpanded title=\"Title\" children=\"Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.\" /></Accordion>\n          </Flex>\n        </FlexItem>\n      </Flex>\n    </Section>",
+    "language": "React",
+    "component": "Section"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-2306",
+    "nodeId": "7:2306",
+    "filePath": "src/figma/compositions/page/PageProductResults.figma.ts",
+    "success": true,
+    "snippet": "<Section padding=\"1600\">\n      <Flex container wrap type=\"quarter\" gap=\"1200\">\n        <FlexItem size=\"minor\">\n          <Card variant=\"stroke\"><Text>Keywords</Text><Tag\n       onRemove={() => {}}\n       variant=\"secondary\"\n       scheme=\"neutral\"\n    >\n      Spring\n    </Tag><Tag\n       onRemove={() => {}}\n       variant=\"secondary\"\n       scheme=\"neutral\"\n    >\n      Smart\n    </Tag><Tag\n       onRemove={() => {}}\n       variant=\"secondary\"\n       scheme=\"neutral\"\n    >\n      Modern\n    </Tag><CheckboxGroup><CheckboxField\n       label=\"Label\"\n       description=\"Description\"\n       defaultSelected\n      \n      \n    /><CheckboxField\n       label=\"Label\"\n       description=\"Description\"\n       defaultSelected\n      \n      \n    /><CheckboxField\n       label=\"Label\"\n       description=\"Description\"\n       defaultSelected\n      \n      \n    /></CheckboxGroup><SliderField\n      \n       label=\"Label\"\n      \n      showOutput\n    /><Text>Color</Text><CheckboxGroup><CheckboxField\n       label=\"Label\"\n      \n       defaultSelected\n      \n      \n    /><CheckboxField\n       label=\"Label\"\n      \n       defaultSelected\n      \n      \n    /><CheckboxField\n       label=\"Label\"\n      \n       defaultSelected\n      \n      \n    /></CheckboxGroup><Text>Size</Text><CheckboxGroup><CheckboxField\n       label=\"Label\"\n      \n       defaultSelected\n      \n      \n    /><CheckboxField\n       label=\"Label\"\n      \n       defaultSelected\n      \n      \n    /><CheckboxField\n       label=\"Label\"\n      \n       defaultSelected\n      \n      \n    /></CheckboxGroup></Card>\n        </FlexItem>\n        <FlexItem size=\"major\">\n          <Flex direction=\"column\" gap=\"1200\" alignSecondary=\"stretch\">\n            <Flex type=\"auto\" alignPrimary=\"space-between\" wrap gap=\"600\">\n              <Search\n      \n       placeholder=\"Search\"\n      \n    /><TagToggleGroup  defaultSelectedKeys={[\"New\"]} selectionMode=\"multiple\">\n      <Label>Label this!</Label>\n      <TagToggleList><TagToggle\n       id=\"New\"\n       iconStart={<IconCheck size=\"16\" />}\n    >\n      New\n    </TagToggle><TagToggle\n       id=\"Price ascending\"\n      \n    >\n      Price ascending\n    </TagToggle><TagToggle\n       id=\"Price descending\"\n      \n    >\n      Price descending\n    </TagToggle><TagToggle\n       id=\"Rating\"\n      \n    >\n      Rating\n    </TagToggle></TagToggleList>\n    </TagToggleGroup>\n            </Flex>\n            <Flex type=\"third\" wrap gap=\"600\">\n              <ProductInfoCard\n      asset={\n        <Image\n          src={placeholder}\n          size=\"medium\"\n          aspectRatio=\"natural\"\n          alt=\"Always describe images\"\n        />\n      }\n      rating={4.5}\n      heading=\"Text\"\n      price=\"$0\"\n      description=\"\"\n    /><ProductInfoCard\n      asset={\n        <Image\n          src={placeholder}\n          size=\"medium\"\n          aspectRatio=\"natural\"\n          alt=\"Always describe images\"\n        />\n      }\n      rating={4.5}\n      heading=\"Text\"\n      price=\"$0\"\n      description=\"\"\n    /><ProductInfoCard\n      asset={\n        <Image\n          src={placeholder}\n          size=\"medium\"\n          aspectRatio=\"natural\"\n          alt=\"Always describe images\"\n        />\n      }\n      rating={4.5}\n      heading=\"Text\"\n      price=\"$0\"\n      description=\"\"\n    /><ProductInfoCard\n      asset={\n        <Image\n          src={placeholder}\n          size=\"medium\"\n          aspectRatio=\"natural\"\n          alt=\"Always describe images\"\n        />\n      }\n      rating={4.5}\n      heading=\"Text\"\n      price=\"$0\"\n      description=\"\"\n    /><ProductInfoCard\n      asset={\n        <Image\n          src={placeholder}\n          size=\"medium\"\n          aspectRatio=\"natural\"\n          alt=\"Always describe images\"\n        />\n      }\n      rating={4.5}\n      heading=\"Text\"\n      price=\"$0\"\n      description=\"\"\n    /><ProductInfoCard\n      asset={\n        <Image\n          src={placeholder}\n          size=\"medium\"\n          aspectRatio=\"natural\"\n          alt=\"Always describe images\"\n        />\n      }\n      rating={4.5}\n      heading=\"Text\"\n      price=\"$0\"\n      description=\"\"\n    />\n            </Flex>\n          </Flex>\n        </FlexItem>\n      </Flex>\n    </Section>",
+    "language": "React",
+    "component": "Section"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-2705",
+    "nodeId": "7:2705",
+    "filePath": "src/figma/compositions/panel/PanelImage.figma.ts",
+    "success": true,
+    "snippet": "<Section padding=\"1600\">\n      <Panel type=\"auto\">\n        <FlexItem size=\"full\">\n          <Image\n            src={placeholder}\n            alt=\"Always use image alt\"\n            aspectRatio=\"fill\"\n            size=\"medium\"\n          />\n        </FlexItem>\n      </Panel>\n    </Section>",
+    "language": "React",
+    "component": "Panel"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-2663",
+    "nodeId": "7:2663",
+    "filePath": "src/figma/compositions/panel/PanelImageContent.figma.ts",
+    "success": true,
+    "snippet": "<Section padding=\"1600\">\n      <Panel gap=\"1200\" type=\"half\">\n        <Image\n          src={placeholder}\n          alt=\"Always use image alt\"\n          aspectRatio=\"4-3\"\n          size=\"medium\"\n        />\n        <FlexItem size=\"half\">\n          <Flex direction=\"column\" gap=\"600\">\n            <TextContentHeading\n      align=\"start\"\n       heading=\"Heading\"\n       subheading=\"Subheading\"\n    /><Text>Body text for your whole article or post. We’ll put in some lorem ipsum to show how a filled-out page might look:</Text><Text>Excepteur efficient emerging, minim veniam anim aute carefully curated Ginza conversation exquisite perfect nostrud nisi intricate Content. Qui  international first-class nulla ut. Punctual adipisicing, essential lovely queen tempor eiusmod irure. Exclusive izakaya charming Scandinavian impeccable aute quality of life soft power pariatur Melbourne occaecat discerning. Qui wardrobe aliquip, et Porter destination Toto remarkable officia Helsinki excepteur Basset hound. Zürich sleepy perfect consectetur.</Text>\n          </Flex>\n        </FlexItem>\n      </Panel>\n    </Section>",
+    "language": "React",
+    "component": "Panel"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-2684",
+    "nodeId": "7:2684",
+    "filePath": "src/figma/compositions/panel/PanelImageContentReverse.figma.ts",
+    "success": true,
+    "snippet": "<Section padding=\"1600\">\n      <Panel gap=\"1200\" type=\"half\">\n        <FlexItem size=\"half\">\n          <Flex direction=\"column\" gap=\"600\">\n            <TextContentHeading\n      align=\"start\"\n       heading=\"Heading\"\n       subheading=\"Subheading\"\n    /><Text>Body text for your whole article or post. We’ll put in some lorem ipsum to show how a filled-out page might look:</Text><Text>Excepteur efficient emerging, minim veniam anim aute carefully curated Ginza conversation exquisite perfect nostrud nisi intricate Content. Qui  international first-class nulla ut. Punctual adipisicing, essential lovely queen tempor eiusmod irure. Exclusive izakaya charming Scandinavian impeccable aute quality of life soft power pariatur Melbourne occaecat discerning. Qui wardrobe aliquip, et Porter destination Toto remarkable officia Helsinki excepteur Basset hound. Zürich sleepy perfect consectetur.</Text>\n          </Flex>\n        </FlexItem>\n        <Image\n          src={placeholder}\n          alt=\"Always use image alt\"\n          aspectRatio=\"4-3\"\n          size=\"medium\"\n        />\n      </Panel>\n    </Section>",
+    "language": "React",
+    "component": "Panel"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-2710",
+    "nodeId": "7:2710",
+    "filePath": "src/figma/compositions/panel/PanelImageDouble.figma.ts",
+    "success": true,
+    "snippet": "<Section padding=\"1600\">\n      <Panel gap=\"1200\" type=\"half\">\n        <Image\n          src={placeholder}\n          alt=\"Always use image alt\"\n          aspectRatio=\"4-3\"\n          size=\"medium\"\n        />\n        <Image\n          src={placeholder}\n          alt=\"Always use image alt\"\n          aspectRatio=\"4-3\"\n          size=\"medium\"\n        />\n      </Panel>\n    </Section>",
+    "language": "React",
+    "component": "Panel"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=5-133",
+    "nodeId": "5:133",
+    "filePath": "src/figma/primitives/IconButton.figma.ts",
+    "success": true,
+    "snippet": "<IconButton\n      aria-label=\"Write a nice description of the action.\"\n      onPress={() => {}}\n       variant=\"primary\"\n       size=\"medium\"\n      \n    >\n      <IconStar size=\"20\" />\n    </IconButton>",
+    "language": "React",
+    "component": "IconButton"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=6-327",
+    "nodeId": "6:327",
+    "filePath": "src/figma/primitives/InputField.figma.ts",
+    "success": true,
+    "snippet": "<InputField\n      \n      \n       label=\"Label\"\n      \n      \n       placeholder=\"Value\"\n    />",
+    "language": "React",
+    "component": "InputField"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-449",
+    "nodeId": "7:449",
+    "filePath": "src/figma/primitives/Notification.figma.ts",
+    "success": true,
+    "snippet": "<Notification\n     icon={<IconInfo size=\"20\" />}\n     isDismissible\n     variant=\"message\"\n    >\n      <TextStrong>Title</TextStrong>\n      <Text>Body text.</Text>\n      <Button\n      onPress={() => {}}\n       variant=\"primary\"\n       size=\"small\"\n      \n    >\n      \n      Button\n      \n    </Button>\n    </Notification>",
+    "language": "React",
+    "component": "Notification"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=6-466",
+    "nodeId": "6:466",
+    "filePath": "src/figma/primitives/Search.figma.ts",
+    "success": true,
+    "snippet": "<Search\n       defaultValue=\"Value\"\n      \n      \n    />",
+    "language": "React",
+    "component": "Search"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=6-397",
+    "nodeId": "6:397",
+    "filePath": "src/figma/primitives/SelectField.figma.ts",
+    "success": true,
+    "snippet": "<SelectField\n  label=\"Label\" \n    errorMessage=\"Error\"\n   defaultSelectedKey=\"Value\"  \n ><SelectItem id=\"Value\">Value</SelectItem></SelectField>",
+    "language": "React",
+    "component": "SelectField"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=6-483",
+    "nodeId": "6:483",
+    "filePath": "src/figma/primitives/SliderField.figma.ts",
+    "success": true,
+    "snippet": "<SliderField\n      \n       label=\"Label\"\n       description=\"Description\"\n      showOutput\n    />",
+    "language": "React",
+    "component": "SliderField"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=6-508",
+    "nodeId": "6:508",
+    "filePath": "src/figma/primitives/SwitchField.figma.ts",
+    "success": true,
+    "snippet": "<SwitchField\n       label=\"Label\"\n       description=\"Description\"\n       defaultSelected\n      \n    />",
+    "language": "React",
+    "component": "SwitchField"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=6-533",
+    "nodeId": "6:533",
+    "filePath": "src/figma/primitives/TextareaField.figma.ts",
+    "success": true,
+    "snippet": "<TextareaField\n      \n      \n       label=\"Label\"\n      \n      \n       placeholder=\"Value\"\n    />",
+    "language": "React",
+    "component": "TextareaField"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-931",
+    "nodeId": "7:931",
+    "filePath": "src/figma/primitives/Tooltip.figma.ts",
+    "success": true,
+    "snippet": "<Tooltip placement=\"top\"><TextStrong>Title</TextStrong><TextSmall>Body text</TextSmall></Tooltip>",
+    "language": "React",
+    "component": "Tooltip"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=5-14082",
+    "nodeId": "5:14082",
+    "filePath": "src/figma/primitives/accordion/Accordion.figma.ts",
+    "success": true,
+    "snippet": "<Accordion><AccordionItem  title=\"Title\" children=\"Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.\" /><AccordionItem  title=\"Title\" children=\"Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.\" /><AccordionItem  title=\"Title\" children=\"Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.\" /><AccordionItem  title=\"Title\" children=\"Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.\" /></Accordion>",
+    "language": "React",
+    "component": "Accordion"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=5-14069",
+    "nodeId": "5:14069",
+    "filePath": "src/figma/primitives/accordion/AccordionItem.figma.ts",
+    "success": true,
+    "snippet": "<AccordionItem defaultExpanded title=\"Title\" children=\"Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.\" />",
+    "language": "React",
+    "component": "AccordionItem"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=5-14220",
+    "nodeId": "5:14220",
+    "filePath": "src/figma/primitives/avatar/Avatar.figma.ts",
+    "success": true,
+    "snippet": "<Avatar\n       square\n       initials=\"F\"\n       size=\"large\"\n      \n    />",
+    "language": "React",
+    "component": "Avatar"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=5-14245",
+    "nodeId": "5:14245",
+    "filePath": "src/figma/primitives/avatar/AvatarBlock.figma.ts",
+    "success": true,
+    "snippet": "<AvatarBlock\n      title=\"Title\"\n      description=\"Description\"\n    >\n      <Avatar\n      \n      \n       size=\"large\"\n      src={placeholder}\n    />\n    </AvatarBlock>",
+    "language": "React",
+    "component": "AvatarBlock"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=5-14251",
+    "nodeId": "5:14251",
+    "filePath": "src/figma/primitives/avatar/AvatarGroup.figma.ts",
+    "success": true,
+    "snippet": "<AvatarGroup\n      spacing=\"negative-200\"\n      max={3}\n    >\n      <Avatar\n      \n      \n       size=\"large\"\n      src={placeholder}\n    /><Avatar\n      \n      \n       size=\"large\"\n      src={placeholder}\n    /><Avatar\n      \n      \n       size=\"large\"\n      src={placeholder}\n    />\n    </AvatarGroup>",
+    "language": "React",
+    "component": "AvatarGroup"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=3-129",
+    "nodeId": "3:129",
+    "filePath": "src/figma/primitives/button/Button.figma.ts",
+    "success": true,
+    "snippet": "<Button\n      onPress={() => {}}\n       variant=\"primary\"\n       size=\"medium\"\n      \n    >\n      \n      Button\n      \n    </Button>",
+    "language": "React",
+    "component": "Button"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=5-234",
+    "nodeId": "5:234",
+    "filePath": "src/figma/primitives/button/ButtonDanger.figma.ts",
+    "success": true,
+    "snippet": "<ButtonDanger\n      onPress={() => {}}\n       variant=\"danger-primary\"\n       size=\"medium\"\n      \n    >\n      \n      Button\n      \n    </ButtonDanger>",
+    "language": "React",
+    "component": "ButtonDanger"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=5-188",
+    "nodeId": "5:188",
+    "filePath": "src/figma/primitives/button/ButtonGroup.figma.ts",
+    "success": true,
+    "snippet": "<ButtonGroup\n       align=\"start\"\n    >\n      <Button\n      onPress={() => {}}\n       variant=\"subtle\"\n       size=\"medium\"\n      \n    >\n      \n      Button\n      \n    </Button><Button\n      onPress={() => {}}\n       variant=\"primary\"\n       size=\"medium\"\n      \n    >\n      \n      Button\n      \n    </Button>\n    </ButtonGroup>",
+    "language": "React",
+    "component": "ButtonGroup"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=6-166",
+    "nodeId": "6:166",
+    "filePath": "src/figma/primitives/checkbox/CheckboxField.figma.ts",
+    "success": true,
+    "snippet": "<CheckboxField\n       label=\"Label\"\n       description=\"Description\"\n       defaultSelected\n      \n      \n    />",
+    "language": "React",
+    "component": "CheckboxField"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=12-47",
+    "nodeId": "12:47",
+    "filePath": "src/figma/primitives/checkbox/CheckboxGroup.figma.ts",
+    "success": true,
+    "snippet": "<CheckboxGroup><CheckboxField\n       label=\"Label\"\n       description=\"Description\"\n       defaultSelected\n      \n      \n    /><CheckboxField\n       label=\"Label\"\n       description=\"Description\"\n       defaultSelected\n      \n      \n    /><CheckboxField\n       label=\"Label\"\n       description=\"Description\"\n       defaultSelected\n      \n      \n    /></CheckboxGroup>",
+    "language": "React",
+    "component": "CheckboxGroup"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=5-14931",
+    "nodeId": "5:14931",
+    "filePath": "src/figma/primitives/dialog/Dialog.figma.ts",
+    "success": true,
+    "snippet": "<DialogModal isDismissable isOpen={true} onOpenChange={() => {}}>\n      <Dialog type=\"card\">\n      <DialogClose onPress={() => {}} />\n      <DialogTitle>Text Heading</DialogTitle>\n      <DialogBody>Body text</DialogBody>\n      <ButtonGroup\n       align=\"end\"\n    >\n      <Button\n      onPress={() => {}}\n       variant=\"neutral\"\n       size=\"medium\"\n      \n    >\n      \n      Button\n      \n    </Button><Button\n      onPress={() => {}}\n       variant=\"primary\"\n       size=\"medium\"\n      \n    >\n      \n      Button\n      \n    </Button>\n    </ButtonGroup>\n    </Dialog>\n    </DialogModal>",
+    "language": "React",
+    "component": "DialogModal"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=5-14893",
+    "nodeId": "5:14893",
+    "filePath": "src/figma/primitives/dialog/DialogBody.figma.ts",
+    "success": true,
+    "snippet": "<Dialog type=\"card\">\n      <DialogClose onPress={() => {}} />\n      <DialogTitle>Text Heading</DialogTitle>\n      <DialogBody>Body text</DialogBody>\n      <ButtonGroup\n       align=\"end\"\n    >\n      <Button\n      onPress={() => {}}\n       variant=\"neutral\"\n       size=\"medium\"\n      \n    >\n      \n      Button\n      \n    </Button><Button\n      onPress={() => {}}\n       variant=\"primary\"\n       size=\"medium\"\n      \n    >\n      \n      Button\n      \n    </Button>\n    </ButtonGroup>\n    </Dialog>",
+    "language": "React",
+    "component": "Dialog"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-53",
+    "nodeId": "7:53",
+    "filePath": "src/figma/primitives/menu/Menu.figma.ts",
+    "success": true,
+    "snippet": "<Menu><MenuSeparator /><MenuItem >\n      <IconStar size=\"20\" />\n      <MenuLabel>Menu Label</MenuLabel>\n      <MenuShortcut>⇧A</MenuShortcut>\n      <MenuDescription>Menu description.</MenuDescription>\n    </MenuItem><MenuItem >\n      <IconStar size=\"20\" />\n      <MenuLabel>Menu Label</MenuLabel>\n      <MenuShortcut>⇧A</MenuShortcut>\n      <MenuDescription>Menu description.</MenuDescription>\n    </MenuItem><MenuItem >\n      <IconStar size=\"20\" />\n      <MenuLabel>Menu Label</MenuLabel>\n      <MenuShortcut>⇧A</MenuShortcut>\n      <MenuDescription>Menu description.</MenuDescription>\n    </MenuItem><MenuSeparator /><MenuItem >\n      <IconStar size=\"20\" />\n      <MenuLabel>Menu Label</MenuLabel>\n      <MenuShortcut>⇧A</MenuShortcut>\n      <MenuDescription>Menu description.</MenuDescription>\n    </MenuItem><MenuItem >\n      <IconStar size=\"20\" />\n      <MenuLabel>Menu Label</MenuLabel>\n      <MenuShortcut>⇧A</MenuShortcut>\n      <MenuDescription>Menu description.</MenuDescription>\n    </MenuItem></Menu>",
+    "language": "React",
+    "component": "Menu"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-111",
+    "nodeId": "7:111",
+    "filePath": "src/figma/primitives/menu/MenuHeader.figma.ts",
+    "success": true,
+    "snippet": "<MenuHeader>\n      <TextSmall>Heading</TextSmall>\n      <TextStrong>Heading</TextStrong>\n    </MenuHeader>",
+    "language": "React",
+    "component": "MenuHeader"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-116",
+    "nodeId": "7:116",
+    "filePath": "src/figma/primitives/menu/MenuHeading.figma.ts",
+    "success": true,
+    "snippet": "<MenuHeading><TextStrong>Heading</TextStrong></MenuHeading>",
+    "language": "React",
+    "component": "MenuHeading"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-121",
+    "nodeId": "7:121",
+    "filePath": "src/figma/primitives/menu/MenuItem.figma.ts",
+    "success": true,
+    "snippet": "<MenuItem >\n      <IconStar size=\"20\" />\n      <MenuLabel>Menu Label</MenuLabel>\n      <MenuShortcut>⇧A</MenuShortcut>\n      <MenuDescription>Menu description.</MenuDescription>\n    </MenuItem>",
+    "language": "React",
+    "component": "MenuItem"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-119",
+    "nodeId": "7:119",
+    "filePath": "src/figma/primitives/menu/MenuSeparator.figma.ts",
+    "success": true,
+    "snippet": "<MenuSeparator />",
+    "language": "React",
+    "component": "MenuSeparator"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=12-128",
+    "nodeId": "12:128",
+    "filePath": "src/figma/primitives/menu/MenuShortcut.figma.ts",
+    "success": true,
+    "snippet": "<MenuShortcut>⇧A</MenuShortcut>",
+    "language": "React",
+    "component": "MenuShortcut"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-206",
+    "nodeId": "7:206",
+    "filePath": "src/figma/primitives/navigation/NavigationButton.figma.ts",
+    "success": true,
+    "snippet": "<NavigationButton\n       icon={<IconStar size=\"24\" />}\n       direction=\"column\"\n       size=\"small\"\n      \n    >\n      Label\n    </NavigationButton>",
+    "language": "React",
+    "component": "NavigationButton"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-255",
+    "nodeId": "7:255",
+    "filePath": "src/figma/primitives/navigation/NavigationButtonList.figma.ts",
+    "success": true,
+    "snippet": "<Navigation direction=\"row\"><NavigationButton\n       icon={<IconStar size=\"24\" />}\n       direction=\"column\"\n       size=\"small\"\n      \n    >\n      Label\n    </NavigationButton><NavigationButton\n       icon={<IconStar size=\"24\" />}\n       direction=\"column\"\n       size=\"small\"\n       isSelected\n    >\n      Label\n    </NavigationButton><NavigationButton\n       icon={<IconStar size=\"24\" />}\n       direction=\"column\"\n       size=\"small\"\n      \n    >\n      Label\n    </NavigationButton><NavigationButton\n       icon={<IconStar size=\"24\" />}\n       direction=\"column\"\n       size=\"small\"\n      \n    >\n      Label\n    </NavigationButton><NavigationButton\n       icon={<IconStar size=\"24\" />}\n       direction=\"column\"\n       size=\"small\"\n      \n    >\n      Label\n    </NavigationButton></Navigation>",
+    "language": "React",
+    "component": "Navigation"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-335",
+    "nodeId": "7:335",
+    "filePath": "src/figma/primitives/navigation/NavigationPill.figma.ts",
+    "success": true,
+    "snippet": "<NavigationPill\n     isSelected\n  >\n    Link\n  </NavigationPill>",
+    "language": "React",
+    "component": "NavigationPill"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-304",
+    "nodeId": "7:304",
+    "filePath": "src/figma/primitives/navigation/NavigationPillList.figma.ts",
+    "success": true,
+    "snippet": "<Navigation direction=\"row\"><NavigationPill\n     isSelected\n  >\n    Link\n  </NavigationPill><NavigationPill\n    \n  >\n    Link\n  </NavigationPill><NavigationPill\n    \n  >\n    Link\n  </NavigationPill><NavigationPill\n    \n  >\n    Link\n  </NavigationPill><NavigationPill\n    \n  >\n    Link\n  </NavigationPill><NavigationPill\n    \n  >\n    Link\n  </NavigationPill><NavigationPill\n    \n  >\n    Link\n  </NavigationPill></Navigation>",
+    "language": "React",
+    "component": "Navigation"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-530",
+    "nodeId": "7:530",
+    "filePath": "src/figma/primitives/pagination/Pagination.figma.ts",
+    "success": true,
+    "snippet": "<Pagination><PaginationPrevious\n      \n    /><PaginationList><PaginationPage\n       current\n       href=\"?page=1\"\n    >\n      1\n    </PaginationPage><PaginationPage\n      \n       href=\"?page=2\"\n    >\n      2\n    </PaginationPage><PaginationPage\n      \n       href=\"?page=3\"\n    >\n      3\n    </PaginationPage><PaginationGap /><PaginationPage\n      \n       href=\"?page=67\"\n    >\n      67\n    </PaginationPage><PaginationPage\n      \n       href=\"?page=68\"\n    >\n      68\n    </PaginationPage></PaginationList><PaginationNext\n      href=\"?next\"\n    /></Pagination>",
+    "language": "React",
+    "component": "Pagination"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-561",
+    "nodeId": "7:561",
+    "filePath": "src/figma/primitives/pagination/PaginationGap.figma.ts",
+    "success": true,
+    "snippet": "<PaginationGap />",
+    "language": "React",
+    "component": "PaginationGap"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-598",
+    "nodeId": "7:598",
+    "filePath": "src/figma/primitives/pagination/PaginationList.figma.ts",
+    "success": true,
+    "snippet": "<PaginationList><PaginationPage\n       current\n       href=\"?page=1\"\n    >\n      1\n    </PaginationPage><PaginationPage\n      \n       href=\"?page=2\"\n    >\n      2\n    </PaginationPage><PaginationPage\n      \n       href=\"?page=3\"\n    >\n      3\n    </PaginationPage><PaginationGap /><PaginationPage\n      \n       href=\"?page=67\"\n    >\n      67\n    </PaginationPage><PaginationPage\n      \n       href=\"?page=68\"\n    >\n      68\n    </PaginationPage></PaginationList>",
+    "language": "React",
+    "component": "PaginationList"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-563",
+    "nodeId": "7:563",
+    "filePath": "src/figma/primitives/pagination/PaginationNext.figma.ts",
+    "success": true,
+    "snippet": "<PaginationNext\n      href=\"?next\"\n    />",
+    "language": "React",
+    "component": "PaginationNext"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-589",
+    "nodeId": "7:589",
+    "filePath": "src/figma/primitives/pagination/PaginationPage.figma.ts",
+    "success": true,
+    "snippet": "<PaginationPage\n      \n       href=\"?page=1\"\n    >\n      1\n    </PaginationPage>",
+    "language": "React",
+    "component": "PaginationPage"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-576",
+    "nodeId": "7:576",
+    "filePath": "src/figma/primitives/pagination/PaginationPrevious.figma.ts",
+    "success": true,
+    "snippet": "<PaginationPrevious\n      href=\"?previous\"\n    />",
+    "language": "React",
+    "component": "PaginationPrevious"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=6-364",
+    "nodeId": "6:364",
+    "filePath": "src/figma/primitives/radio/RadioField.figma.ts",
+    "success": true,
+    "snippet": "<RadioField\n      value=\"Label\"\n       label=\"Label\"\n       description=\"Description\"\n      \n    />",
+    "language": "React",
+    "component": "RadioField"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=12-22",
+    "nodeId": "12:22",
+    "filePath": "src/figma/primitives/radio/RadioGroup.figma.ts",
+    "success": true,
+    "snippet": "<RadioGroup  defaultValue=\"Label\"><RadioField\n      value=\"Label\"\n       label=\"Label\"\n       description=\"Description\"\n      \n    /><RadioField\n      value=\"Label\"\n       label=\"Label\"\n       description=\"Description\"\n      \n    /><RadioField\n      value=\"Label\"\n       label=\"Label\"\n       description=\"Description\"\n      \n    /></RadioGroup>",
+    "language": "React",
+    "component": "RadioGroup"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-631",
+    "nodeId": "7:631",
+    "filePath": "src/figma/primitives/tab/Tab.figma.ts",
+    "success": true,
+    "snippet": "<Tab id=\"Label\">Label</Tab>",
+    "language": "React",
+    "component": "Tab"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-640",
+    "nodeId": "7:640",
+    "filePath": "src/figma/primitives/tab/Tabs.figma.ts",
+    "success": true,
+    "snippet": "<Tabs  defaultSelectedKey=\"Label\">\n      <TabList><Tab id=\"Label\">Label</Tab><Tab id=\"Label\">Label</Tab><Tab id=\"Label\">Label</Tab><Tab id=\"Label\">Label</Tab><Tab id=\"Label\">Label</Tab><Tab id=\"Label\">Label</Tab></TabList>\n      <TabPanel id=\"match-each-tab\">Some stuff</TabPanel>\n    </Tabs>",
+    "language": "React",
+    "component": "Tabs"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-654",
+    "nodeId": "7:654",
+    "filePath": "src/figma/primitives/tag/Tag.figma.ts",
+    "success": true,
+    "snippet": "<Tag\n       onRemove={() => {}}\n       variant=\"primary\"\n       scheme=\"brand\"\n    >\n      Tag\n    </Tag>",
+    "language": "React",
+    "component": "Tag"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-754",
+    "nodeId": "7:754",
+    "filePath": "src/figma/primitives/tag/TagToggle.figma.ts",
+    "success": true,
+    "snippet": "<TagToggle\n       id=\"Label\"\n       iconStart={<IconCheck size=\"16\" />}\n    >\n      Label\n    </TagToggle>",
+    "language": "React",
+    "component": "TagToggle"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-735",
+    "nodeId": "7:735",
+    "filePath": "src/figma/primitives/tag/TagToggleGroup.figma.ts",
+    "success": true,
+    "snippet": "<TagToggleGroup  defaultSelectedKeys={[\"Label\"]} selectionMode=\"multiple\">\n      <Label>Label this!</Label>\n      <TagToggleList><TagToggle\n       id=\"Label\"\n       iconStart={<IconCheck size=\"16\" />}\n    >\n      Label\n    </TagToggle><TagToggle\n       id=\"Label\"\n      \n    >\n      Label\n    </TagToggle><TagToggle\n       id=\"Label\"\n      \n    >\n      Label\n    </TagToggle><TagToggle\n       id=\"Label\"\n      \n    >\n      Label\n    </TagToggle><TagToggle\n       id=\"Label\"\n      \n    >\n      Label\n    </TagToggle><TagToggle\n       id=\"Label\"\n      \n    >\n      Label\n    </TagToggle><TagToggle\n       id=\"Label\"\n      \n    >\n      Label\n    </TagToggle></TagToggleList>\n    </TagToggleGroup>",
+    "language": "React",
+    "component": "TagToggleGroup"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-890",
+    "nodeId": "7:890",
+    "filePath": "src/figma/primitives/text/Text.figma.ts",
+    "success": true,
+    "snippet": "<Text>Text</Text>",
+    "language": "React",
+    "component": "Text"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-882",
+    "nodeId": "7:882",
+    "filePath": "src/figma/primitives/text/TextCode.figma.ts",
+    "success": true,
+    "snippet": "<TextCode>Text Code</TextCode>",
+    "language": "React",
+    "component": "TextCode"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-779",
+    "nodeId": "7:779",
+    "filePath": "src/figma/primitives/text/TextContentHeading.figma.ts",
+    "success": true,
+    "snippet": "<TextContentHeading\n      align=\"start\"\n       heading=\"Heading\"\n       subheading=\"Subheading\"\n    />",
+    "language": "React",
+    "component": "TextContentHeading"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-786",
+    "nodeId": "7:786",
+    "filePath": "src/figma/primitives/text/TextContentTitle.figma.ts",
+    "success": true,
+    "snippet": "<TextContentTitle\n      align=\"start\"\n       title=\"Title\"\n       subtitle=\"Subtitle\"\n    />",
+    "language": "React",
+    "component": "TextContentTitle"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-888",
+    "nodeId": "7:888",
+    "filePath": "src/figma/primitives/text/TextEmphasis.figma.ts",
+    "success": true,
+    "snippet": "<TextEmphasis>Text Emphasis</TextEmphasis>",
+    "language": "React",
+    "component": "TextEmphasis"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-894",
+    "nodeId": "7:894",
+    "filePath": "src/figma/primitives/text/TextHeading.figma.ts",
+    "success": true,
+    "snippet": "<TextHeading>Text Heading</TextHeading>",
+    "language": "React",
+    "component": "TextHeading"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-886",
+    "nodeId": "7:886",
+    "filePath": "src/figma/primitives/text/TextLink.figma.ts",
+    "success": true,
+    "snippet": "<TextLink href=\"#\">Text Link</TextLink>",
+    "language": "React",
+    "component": "TextLink"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-793",
+    "nodeId": "7:793",
+    "filePath": "src/figma/primitives/text/TextLinkList.figma.ts",
+    "success": true,
+    "snippet": "<TextLinkList title={<TextStrong>Text Strong</TextStrong>} density=\"default\"><TextListItem>\n      <TextLink href=\"#\">List item</TextLink>\n    </TextListItem><TextListItem>\n      <TextLink href=\"#\">List item</TextLink>\n    </TextListItem><TextListItem>\n      <TextLink href=\"#\">List item</TextLink>\n    </TextListItem><TextListItem>\n      <TextLink href=\"#\">List item</TextLink>\n    </TextListItem><TextListItem>\n      <TextLink href=\"#\">List item</TextLink>\n    </TextListItem><TextListItem>\n      <TextLink href=\"#\">List item</TextLink>\n    </TextListItem><TextListItem>\n      <TextLink href=\"#\">List item</TextLink>\n    </TextListItem></TextLinkList>",
+    "language": "React",
+    "component": "TextLinkList"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-904",
+    "nodeId": "7:904",
+    "filePath": "src/figma/primitives/text/TextLinkListItem.figma.ts",
+    "success": true,
+    "snippet": "<TextListItem>\n      <TextLink href=\"#\">List item</TextLink>\n    </TextListItem>",
+    "language": "React",
+    "component": "TextListItem"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-832",
+    "nodeId": "7:832",
+    "filePath": "src/figma/primitives/text/TextList.figma.ts",
+    "success": true,
+    "snippet": "<TextList density=\"default\"><TextListItem>List item</TextListItem><TextListItem>List item</TextListItem><TextListItem>List item</TextListItem><TextListItem>List item</TextListItem><TextListItem>List item</TextListItem><TextListItem>List item</TextListItem><TextListItem>List item</TextListItem></TextList>",
+    "language": "React",
+    "component": "TextList"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-902",
+    "nodeId": "7:902",
+    "filePath": "src/figma/primitives/text/TextListItem.figma.ts",
+    "success": true,
+    "snippet": "<TextListItem>List item</TextListItem>",
+    "language": "React",
+    "component": "TextListItem"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-869",
+    "nodeId": "7:869",
+    "filePath": "src/figma/primitives/text/TextPrice.figma.ts",
+    "success": true,
+    "snippet": "<TextPrice\n       label=\"/ mo\"\n      size=\"large\"\n       currency=\"$\"\n       price=\"50\"\n    />",
+    "language": "React",
+    "component": "TextPrice"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-880",
+    "nodeId": "7:880",
+    "filePath": "src/figma/primitives/text/TextSmall.figma.ts",
+    "success": true,
+    "snippet": "<TextSmall>Text Small</TextSmall>",
+    "language": "React",
+    "component": "TextSmall"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-884",
+    "nodeId": "7:884",
+    "filePath": "src/figma/primitives/text/TextStrong.figma.ts",
+    "success": true,
+    "snippet": "<TextStrong>Text Strong</TextStrong>",
+    "language": "React",
+    "component": "TextStrong"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-892",
+    "nodeId": "7:892",
+    "filePath": "src/figma/primitives/text/TextSubheading.figma.ts",
+    "success": true,
+    "snippet": "<TextSubheading>Text Subheading</TextSubheading>",
+    "language": "React",
+    "component": "TextSubheading"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-896",
+    "nodeId": "7:896",
+    "filePath": "src/figma/primitives/text/TextSubtitle.figma.ts",
+    "success": true,
+    "snippet": "<TextSubtitle>Text Subtitle</TextSubtitle>",
+    "language": "React",
+    "component": "TextSubtitle"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-900",
+    "nodeId": "7:900",
+    "filePath": "src/figma/primitives/text/TextTitleHero.figma.ts",
+    "success": true,
+    "snippet": "<TextTitleHero>Text Title Hero</TextTitleHero>",
+    "language": "React",
+    "component": "TextTitleHero"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=7-898",
+    "nodeId": "7:898",
+    "filePath": "src/figma/primitives/text/TextTitlePage.figma.ts",
+    "success": true,
+    "snippet": "<TextTitlePage>Text Title Page</TextTitlePage>",
+    "language": "React",
+    "component": "TextTitlePage"
+  },
+  {
+    "url": "https://www.figma.com/design/KvZojcUkOfHSSBIixVHjbg?node-id=20-66",
+    "nodeId": "20:66",
+    "filePath": "src/figma/primitives/IconButtonDanger.figma.ts",
+    "success": true,
+    "snippet": "<DestructiveIconButton\n      aria-label=\"Write a nice description of the action.\"\n      onPress={() => {}}\n       variant=\"danger-primary\"\n       size=\"medium\"\n      \n    >\n      <IconCircle size=\"16\" />\n    </DestructiveIconButton>",
+    "language": "React",
+    "component": "DestructiveIconButton"
+  }
+]

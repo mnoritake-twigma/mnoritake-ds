@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-03",
+  "fileKey": "KvZojcUkOfHSSBIixVHjbg",
+  "method": "official Code Connect CLI",
+  "publishedRecords": 1819,
+  "uiTemplates": 97,
+  "iconRecords": 1722,
+  "uiPreviewsSucceeded": 97,
+  "uiPreviewUnresolvedMarkers": 0,
+  "verification": "CLI publication completed successfully; MCP confirmed hasTemplate=true and rendered snippets for Button and IconInfo."
+}

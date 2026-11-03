@@ -1,0 +1,59 @@
+{
+  "Footer": {
+    "Slot": "Upstream Footer renders fixed links and does not expose a content slot.",
+    "Title": "Upstream Footer renders a fixed logo; no title-slot prop.",
+    "Platform": "Responsive layout is controlled by useMediaQuery."
+  },
+  "Pricing Card": {
+    "Device": "Size is obtained from the nested Text Price instance; no Device prop exists."
+  },
+  "Product Info Card": {
+    "Body": "Upstream ProductInfoCard accepts heading/price/description strings, not arbitrary body content."
+  },
+  "Header": {
+    "Platform": "Responsive layout is controlled by useMediaQuery.",
+    "State": "Menu open state is internal to HeaderAuth, not a public prop."
+  },
+  "Header Auth": {
+    "State": "Authentication comes from AuthProvider, not a component prop."
+  },
+  "Avatar Group": {
+    "Number": "Overflow is calculated from actual child count and max; an arbitrary display number has no prop."
+  },
+  "Navigation Button List": {
+    "Link 2": "Visibility is resolved by the current Figma slot/child content; Navigation has no individual Link N prop.",
+    "Link 5": "Visibility is resolved by the current Figma slot/child content; Navigation has no individual Link N prop.",
+    "Link 4": "Visibility is resolved by the current Figma slot/child content; Navigation has no individual Link N prop.",
+    "Link 3": "Visibility is resolved by the current Figma slot/child content; Navigation has no individual Link N prop.",
+    "Link 1": "Visibility is resolved by the current Figma slot/child content; Navigation has no individual Link N prop."
+  },
+  "Navigation Pill List": {
+    "Link 6": "Visibility is resolved by the current Figma slot/child content; Navigation has no individual Link N prop.",
+    "Link 2": "Visibility is resolved by the current Figma slot/child content; Navigation has no individual Link N prop.",
+    "Link 5": "Visibility is resolved by the current Figma slot/child content; Navigation has no individual Link N prop.",
+    "Link 4": "Visibility is resolved by the current Figma slot/child content; Navigation has no individual Link N prop.",
+    "Link 3": "Visibility is resolved by the current Figma slot/child content; Navigation has no individual Link N prop.",
+    "Link 1": "Visibility is resolved by the current Figma slot/child content; Navigation has no individual Link N prop.",
+    "Link 7": "Visibility is resolved by the current Figma slot/child content; Navigation has no individual Link N prop."
+  },
+  "Tab": {
+    "State": "Hover is an interaction state controlled by React Aria/CSS."
+  },
+  "Tag": {
+    "State": "Hover is an interaction state controlled by CSS."
+  },
+  "Button Group": {
+    "Button Start": "Visibility is resolved by Figma child extraction; there is no individual button visibility prop in ButtonGroup.",
+    "Button End": "Visibility is resolved by Figma child extraction; there is no individual button visibility prop in ButtonGroup."
+  },
+  "Card": {
+    "Body2": "Observed Figma slot extraction returned unrelated nested controls instead of this text region. The verified text property and named children are used; arbitrary replacement slot content is not mapped."
+  },
+  "Notification": {
+    "Title2": "Observed Figma slot extraction returned unrelated nested controls instead of this text region. The verified text property and named children are used; arbitrary replacement slot content is not mapped."
+  },
+  "Dialog Body": {
+    "Slot": "Observed Figma slot extraction returned unrelated nested controls instead of this text region. The verified text property and named children are used; arbitrary replacement slot content is not mapped.",
+    "Slot 2": "Observed Figma slot extraction returned unrelated nested controls instead of this text region. The verified text property and named children are used; arbitrary replacement slot content is not mapped."
+  }
+}

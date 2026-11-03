@@ -1,0 +1,2078 @@
+{
+  "7:2920": {
+    "name": "Footer",
+    "properties": {
+      "Slot#6062:12": {
+        "name": "Slot",
+        "type": "SLOT",
+        "key": "Slot#6062:12"
+      },
+      "Title#6062:15": {
+        "name": "Title",
+        "type": "SLOT",
+        "key": "Title#6062:15"
+      },
+      "Platform": {
+        "name": "Platform",
+        "type": "VARIANT",
+        "key": "Platform",
+        "variantOptions": [
+          "Desktop",
+          "Mobile"
+        ]
+      }
+    }
+  },
+  "5:14602": {
+    "name": "Card",
+    "properties": {
+      "Asset#113:13": {
+        "name": "Asset",
+        "type": "BOOLEAN",
+        "key": "Asset#113:13"
+      },
+      "Button#113:15": {
+        "name": "Button",
+        "type": "BOOLEAN",
+        "key": "Button#113:15"
+      },
+      "Heading#280:0": {
+        "name": "Heading",
+        "type": "TEXT",
+        "key": "Heading#280:0"
+      },
+      "Body#280:13": {
+        "name": "Body",
+        "type": "TEXT",
+        "key": "Body#280:13"
+      },
+      "Icon#280:68": {
+        "name": "Icon",
+        "type": "INSTANCE_SWAP",
+        "key": "Icon#280:68"
+      },
+      "Body2#6062:54": {
+        "name": "Body2",
+        "type": "SLOT",
+        "key": "Body2#6062:54"
+      },
+      "Asset Type": {
+        "name": "Asset Type",
+        "type": "VARIANT",
+        "key": "Asset Type",
+        "variantOptions": [
+          "Icon",
+          "Image"
+        ]
+      },
+      "Variant": {
+        "name": "Variant",
+        "type": "VARIANT",
+        "key": "Variant",
+        "variantOptions": [
+          "Stroke",
+          "Default"
+        ]
+      },
+      "Direction": {
+        "name": "Direction",
+        "type": "VARIANT",
+        "key": "Direction",
+        "variantOptions": [
+          "Horizontal",
+          "Vertical"
+        ]
+      }
+    }
+  },
+  "5:14752": {
+    "name": "Pricing Card",
+    "properties": {
+      "Device": {
+        "name": "Device",
+        "type": "VARIANT",
+        "key": "Device",
+        "variantOptions": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "Variant": {
+        "name": "Variant",
+        "type": "VARIANT",
+        "key": "Variant",
+        "variantOptions": [
+          "Stroke",
+          "Brand"
+        ]
+      }
+    }
+  },
+  "5:14703": {
+    "name": "Product Info Card",
+    "properties": {
+      "Show Description#2236:12": {
+        "name": "Show Description",
+        "type": "BOOLEAN",
+        "key": "Show Description#2236:12"
+      },
+      "Body#6208:0": {
+        "name": "Body",
+        "type": "SLOT",
+        "key": "Body#6208:0"
+      }
+    }
+  },
+  "5:14729": {
+    "name": "Review Card",
+    "properties": {}
+  },
+  "5:14721": {
+    "name": "Stats Card",
+    "properties": {
+      "Icon#2236:10": {
+        "name": "Icon",
+        "type": "INSTANCE_SWAP",
+        "key": "Icon#2236:10"
+      }
+    }
+  },
+  "5:14712": {
+    "name": "Testimonial Card",
+    "properties": {}
+  },
+  "7:1381": {
+    "name": "Card Grid Content List",
+    "properties": {
+      "Cards#6062:36": {
+        "name": "Cards",
+        "type": "SLOT",
+        "key": "Cards#6062:36"
+      },
+      "Platform": {
+        "name": "Platform",
+        "type": "VARIANT",
+        "key": "Platform",
+        "variantOptions": [
+          "Desktop",
+          "Mobile"
+        ]
+      }
+    }
+  },
+  "7:1174": {
+    "name": "Card Grid Icon",
+    "properties": {
+      "Cards#6062:30": {
+        "name": "Cards",
+        "type": "SLOT",
+        "key": "Cards#6062:30"
+      },
+      "Platform": {
+        "name": "Platform",
+        "type": "VARIANT",
+        "key": "Platform",
+        "variantOptions": [
+          "Desktop",
+          "Mobile"
+        ]
+      }
+    }
+  },
+  "7:1282": {
+    "name": "Card Grid Image",
+    "properties": {
+      "Slot#6062:33": {
+        "name": "Slot",
+        "type": "SLOT",
+        "key": "Slot#6062:33"
+      },
+      "Platform": {
+        "name": "Platform",
+        "type": "VARIANT",
+        "key": "Platform",
+        "variantOptions": [
+          "Desktop",
+          "Mobile"
+        ]
+      }
+    }
+  },
+  "7:1474": {
+    "name": "Card Grid Pricing",
+    "properties": {
+      "Card Grid#6062:27": {
+        "name": "Card Grid",
+        "type": "SLOT",
+        "key": "Card Grid#6062:27"
+      },
+      "Platform": {
+        "name": "Platform",
+        "type": "VARIANT",
+        "key": "Platform",
+        "variantOptions": [
+          "Desktop",
+          "Mobile"
+        ]
+      }
+    }
+  },
+  "7:1889": {
+    "name": "Card Grid Reviews",
+    "properties": {
+      "Platform": {
+        "name": "Platform",
+        "type": "VARIANT",
+        "key": "Platform",
+        "variantOptions": [
+          "Desktop",
+          "Mobile"
+        ]
+      }
+    }
+  },
+  "7:1763": {
+    "name": "Card Grid Testimonials",
+    "properties": {
+      "Card Grid#6062:39": {
+        "name": "Card Grid",
+        "type": "SLOT",
+        "key": "Card Grid#6062:39"
+      },
+      "Platform": {
+        "name": "Platform",
+        "type": "VARIANT",
+        "key": "Platform",
+        "variantOptions": [
+          "Desktop",
+          "Mobile"
+        ]
+      }
+    }
+  },
+  "7:1076": {
+    "name": "Form Contact",
+    "properties": {}
+  },
+  "7:1152": {
+    "name": "Form Forgot Password",
+    "properties": {}
+  },
+  "7:1044": {
+    "name": "Form Log In",
+    "properties": {}
+  },
+  "7:1065": {
+    "name": "Form Newsletter",
+    "properties": {}
+  },
+  "7:1012": {
+    "name": "Form Register",
+    "properties": {}
+  },
+  "7:1108": {
+    "name": "Form Shipping",
+    "properties": {}
+  },
+  "7:3217": {
+    "name": "Header",
+    "properties": {
+      "Platform": {
+        "name": "Platform",
+        "type": "VARIANT",
+        "key": "Platform",
+        "variantOptions": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Open",
+          "Default"
+        ]
+      }
+    }
+  },
+  "7:3311": {
+    "name": "Header Auth",
+    "properties": {
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Logged In",
+          "Logged Out",
+          "Logged In - Hover"
+        ]
+      }
+    }
+  },
+  "7:2726": {
+    "name": "Hero Actions",
+    "properties": {
+      "Platform": {
+        "name": "Platform",
+        "type": "VARIANT",
+        "key": "Platform",
+        "variantOptions": [
+          "Desktop",
+          "Mobile"
+        ]
+      }
+    }
+  },
+  "7:2717": {
+    "name": "Hero Basic",
+    "properties": {
+      "Platform": {
+        "name": "Platform",
+        "type": "VARIANT",
+        "key": "Platform",
+        "variantOptions": [
+          "Desktop",
+          "Mobile"
+        ]
+      }
+    }
+  },
+  "7:2789": {
+    "name": "Hero Form",
+    "properties": {
+      "Platform": {
+        "name": "Platform",
+        "type": "VARIANT",
+        "key": "Platform",
+        "variantOptions": [
+          "Desktop",
+          "Mobile"
+        ]
+      }
+    }
+  },
+  "7:2888": {
+    "name": "Hero Image",
+    "properties": {
+      "Platform": {
+        "name": "Platform",
+        "type": "VARIANT",
+        "key": "Platform",
+        "variantOptions": [
+          "Desktop",
+          "Mobile"
+        ]
+      }
+    }
+  },
+  "7:2758": {
+    "name": "Hero Newsletter",
+    "properties": {
+      "Platform": {
+        "name": "Platform",
+        "type": "VARIANT",
+        "key": "Platform",
+        "variantOptions": [
+          "Desktop",
+          "Mobile"
+        ]
+      }
+    }
+  },
+  "7:2048": {
+    "name": "Page Accordion",
+    "properties": {
+      "Platform": {
+        "name": "Platform",
+        "type": "VARIANT",
+        "key": "Platform",
+        "variantOptions": [
+          "Desktop",
+          "Mobile"
+        ]
+      }
+    }
+  },
+  "7:2624": {
+    "name": "Page Newsletter",
+    "properties": {
+      "Platform": {
+        "name": "Platform",
+        "type": "VARIANT",
+        "key": "Platform",
+        "variantOptions": [
+          "Desktop",
+          "Mobile"
+        ]
+      }
+    }
+  },
+  "7:2145": {
+    "name": "Page Product",
+    "properties": {
+      "Column#6062:42": {
+        "name": "Column",
+        "type": "SLOT",
+        "key": "Column#6062:42"
+      },
+      "Platform": {
+        "name": "Platform",
+        "type": "VARIANT",
+        "key": "Platform",
+        "variantOptions": [
+          "Desktop",
+          "Mobile"
+        ]
+      }
+    }
+  },
+  "7:2306": {
+    "name": "Page Product Results",
+    "properties": {
+      "Slot#6062:48": {
+        "name": "Slot",
+        "type": "SLOT",
+        "key": "Slot#6062:48"
+      },
+      "Card Grid#6062:51": {
+        "name": "Card Grid",
+        "type": "SLOT",
+        "key": "Card Grid#6062:51"
+      },
+      "Platform": {
+        "name": "Platform",
+        "type": "VARIANT",
+        "key": "Platform",
+        "variantOptions": [
+          "Desktop",
+          "Mobile"
+        ]
+      }
+    }
+  },
+  "7:2705": {
+    "name": "Panel Image",
+    "properties": {
+      "Platform": {
+        "name": "Platform",
+        "type": "VARIANT",
+        "key": "Platform",
+        "variantOptions": [
+          "Desktop",
+          "Mobile"
+        ]
+      }
+    }
+  },
+  "7:2663": {
+    "name": "Panel Image Content",
+    "properties": {
+      "Text Content Flow#6062:21": {
+        "name": "Text Content Flow",
+        "type": "SLOT",
+        "key": "Text Content Flow#6062:21"
+      },
+      "Platform": {
+        "name": "Platform",
+        "type": "VARIANT",
+        "key": "Platform",
+        "variantOptions": [
+          "Desktop",
+          "Mobile"
+        ]
+      }
+    }
+  },
+  "7:2684": {
+    "name": "Panel Image Content Reverse",
+    "properties": {
+      "Text Content Flow#6062:24": {
+        "name": "Text Content Flow",
+        "type": "SLOT",
+        "key": "Text Content Flow#6062:24"
+      },
+      "Platform": {
+        "name": "Platform",
+        "type": "VARIANT",
+        "key": "Platform",
+        "variantOptions": [
+          "Desktop",
+          "Mobile"
+        ]
+      }
+    }
+  },
+  "7:2710": {
+    "name": "Panel Image Double",
+    "properties": {
+      "Platform": {
+        "name": "Platform",
+        "type": "VARIANT",
+        "key": "Platform",
+        "variantOptions": [
+          "Desktop",
+          "Mobile"
+        ]
+      }
+    }
+  },
+  "5:133": {
+    "name": "Icon Button",
+    "properties": {
+      "Icon#4:192": {
+        "name": "Icon",
+        "type": "INSTANCE_SWAP",
+        "key": "Icon#4:192"
+      },
+      "Variant": {
+        "name": "Variant",
+        "type": "VARIANT",
+        "key": "Variant",
+        "variantOptions": [
+          "Primary",
+          "Neutral",
+          "Subtle"
+        ]
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Hover",
+          "Disabled"
+        ]
+      },
+      "Size": {
+        "name": "Size",
+        "type": "VARIANT",
+        "key": "Size",
+        "variantOptions": [
+          "Medium",
+          "Small"
+        ]
+      }
+    }
+  },
+  "6:327": {
+    "name": "Input Field",
+    "properties": {
+      "Has Label#57:0": {
+        "name": "Has Label",
+        "type": "BOOLEAN",
+        "key": "Has Label#57:0"
+      },
+      "Has Error#72:6": {
+        "name": "Has Error",
+        "type": "BOOLEAN",
+        "key": "Has Error#72:6"
+      },
+      "Label#280:41": {
+        "name": "Label",
+        "type": "TEXT",
+        "key": "Label#280:41"
+      },
+      "Error#280:44": {
+        "name": "Error",
+        "type": "TEXT",
+        "key": "Error#280:44"
+      },
+      "Has Description#611:20": {
+        "name": "Has Description",
+        "type": "BOOLEAN",
+        "key": "Has Description#611:20"
+      },
+      "Description#611:27": {
+        "name": "Description",
+        "type": "TEXT",
+        "key": "Description#611:27"
+      },
+      "Value#630:14": {
+        "name": "Value",
+        "type": "TEXT",
+        "key": "Value#630:14"
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Disabled",
+          "Default",
+          "Error"
+        ]
+      },
+      "Value Type": {
+        "name": "Value Type",
+        "type": "VARIANT",
+        "key": "Value Type",
+        "variantOptions": [
+          "Default",
+          "Placeholder"
+        ]
+      }
+    }
+  },
+  "7:449": {
+    "name": "Notification",
+    "properties": {
+      "Dismissible#124:2": {
+        "name": "Dismissible",
+        "type": "BOOLEAN",
+        "key": "Dismissible#124:2"
+      },
+      "Icon#124:3": {
+        "name": "Icon",
+        "type": "INSTANCE_SWAP",
+        "key": "Icon#124:3"
+      },
+      "Has Icon#124:4": {
+        "name": "Has Icon",
+        "type": "BOOLEAN",
+        "key": "Has Icon#124:4"
+      },
+      "Has Button#129:6": {
+        "name": "Has Button",
+        "type": "BOOLEAN",
+        "key": "Has Button#129:6"
+      },
+      "Title#280:59": {
+        "name": "Title",
+        "type": "TEXT",
+        "key": "Title#280:59"
+      },
+      "Body#280:62": {
+        "name": "Body",
+        "type": "TEXT",
+        "key": "Body#280:62"
+      },
+      "Title2#6031:23": {
+        "name": "Title2",
+        "type": "SLOT",
+        "key": "Title2#6031:23"
+      },
+      "Variant": {
+        "name": "Variant",
+        "type": "VARIANT",
+        "key": "Variant",
+        "variantOptions": [
+          "Message",
+          "Alert"
+        ]
+      }
+    }
+  },
+  "6:466": {
+    "name": "Search",
+    "properties": {
+      "Value#29:2": {
+        "name": "Value",
+        "type": "TEXT",
+        "key": "Value#29:2"
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Disabled"
+        ]
+      },
+      "Value Type": {
+        "name": "Value Type",
+        "type": "VARIANT",
+        "key": "Value Type",
+        "variantOptions": [
+          "Filled",
+          "Placeholder"
+        ]
+      }
+    }
+  },
+  "6:397": {
+    "name": "Select Field",
+    "properties": {
+      "Has Label#57:0": {
+        "name": "Has Label",
+        "type": "BOOLEAN",
+        "key": "Has Label#57:0"
+      },
+      "Has Error#72:6": {
+        "name": "Has Error",
+        "type": "BOOLEAN",
+        "key": "Has Error#72:6"
+      },
+      "Label#280:85": {
+        "name": "Label",
+        "type": "TEXT",
+        "key": "Label#280:85"
+      },
+      "Error#280:88": {
+        "name": "Error",
+        "type": "TEXT",
+        "key": "Error#280:88"
+      },
+      "Open#586:0": {
+        "name": "Open",
+        "type": "BOOLEAN",
+        "key": "Open#586:0"
+      },
+      "Description#611:0": {
+        "name": "Description",
+        "type": "TEXT",
+        "key": "Description#611:0"
+      },
+      "Has Description#611:4": {
+        "name": "Has Description",
+        "type": "BOOLEAN",
+        "key": "Has Description#611:4"
+      },
+      "Value#630:7": {
+        "name": "Value",
+        "type": "TEXT",
+        "key": "Value#630:7"
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Error",
+          "Disabled"
+        ]
+      },
+      "Value Type": {
+        "name": "Value Type",
+        "type": "VARIANT",
+        "key": "Value Type",
+        "variantOptions": [
+          "Default",
+          "Placeholder"
+        ]
+      }
+    }
+  },
+  "6:483": {
+    "name": "Slider Field",
+    "properties": {
+      "Label#589:3": {
+        "name": "Label",
+        "type": "TEXT",
+        "key": "Label#589:3"
+      },
+      "Description#589:4": {
+        "name": "Description",
+        "type": "TEXT",
+        "key": "Description#589:4"
+      },
+      "Has Label#589:5": {
+        "name": "Has Label",
+        "type": "BOOLEAN",
+        "key": "Has Label#589:5"
+      },
+      "Has Description#589:6": {
+        "name": "Has Description",
+        "type": "BOOLEAN",
+        "key": "Has Description#589:6"
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Disabled"
+        ]
+      }
+    }
+  },
+  "6:508": {
+    "name": "Switch Field",
+    "properties": {
+      "Description#305:3": {
+        "name": "Description",
+        "type": "TEXT",
+        "key": "Description#305:3"
+      },
+      "Has Label#373:0": {
+        "name": "Has Label",
+        "type": "BOOLEAN",
+        "key": "Has Label#373:0"
+      },
+      "Label#373:6": {
+        "name": "Label",
+        "type": "TEXT",
+        "key": "Label#373:6"
+      },
+      "Has Description#2137:0": {
+        "name": "Has Description",
+        "type": "BOOLEAN",
+        "key": "Has Description#2137:0"
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Disabled",
+          "Default"
+        ]
+      },
+      "Value Type": {
+        "name": "Value Type",
+        "type": "VARIANT",
+        "key": "Value Type",
+        "variantOptions": [
+          "Unchecked",
+          "Checked"
+        ]
+      }
+    }
+  },
+  "6:533": {
+    "name": "Textarea Field",
+    "properties": {
+      "Has Label#57:0": {
+        "name": "Has Label",
+        "type": "BOOLEAN",
+        "key": "Has Label#57:0"
+      },
+      "Has Error#72:6": {
+        "name": "Has Error",
+        "type": "BOOLEAN",
+        "key": "Has Error#72:6"
+      },
+      "Label#280:32": {
+        "name": "Label",
+        "type": "TEXT",
+        "key": "Label#280:32"
+      },
+      "Error#280:35": {
+        "name": "Error",
+        "type": "TEXT",
+        "key": "Error#280:35"
+      },
+      "Description#611:8": {
+        "name": "Description",
+        "type": "TEXT",
+        "key": "Description#611:8"
+      },
+      "Has Description#611:14": {
+        "name": "Has Description",
+        "type": "BOOLEAN",
+        "key": "Has Description#611:14"
+      },
+      "Value#630:0": {
+        "name": "Value",
+        "type": "TEXT",
+        "key": "Value#630:0"
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Error",
+          "Disabled"
+        ]
+      },
+      "Value Type": {
+        "name": "Value Type",
+        "type": "VARIANT",
+        "key": "Value Type",
+        "variantOptions": [
+          "Default",
+          "Placeholder"
+        ]
+      }
+    }
+  },
+  "7:931": {
+    "name": "Tooltip",
+    "properties": {
+      "Title#315:95": {
+        "name": "Title",
+        "type": "TEXT",
+        "key": "Title#315:95"
+      },
+      "Body#315:96": {
+        "name": "Body",
+        "type": "TEXT",
+        "key": "Body#315:96"
+      },
+      "Has Body#315:111": {
+        "name": "Has Body",
+        "type": "BOOLEAN",
+        "key": "Has Body#315:111"
+      },
+      "Slot#6031:29": {
+        "name": "Slot",
+        "type": "SLOT",
+        "key": "Slot#6031:29"
+      },
+      "Placement": {
+        "name": "Placement",
+        "type": "VARIANT",
+        "key": "Placement",
+        "variantOptions": [
+          "Top",
+          "Left",
+          "Right",
+          "Bottom"
+        ]
+      }
+    }
+  },
+  "5:14082": {
+    "name": "Accordion",
+    "properties": {
+      "Items#6031:6": {
+        "name": "Items",
+        "type": "SLOT",
+        "key": "Items#6031:6"
+      }
+    }
+  },
+  "5:14069": {
+    "name": "Accordion Item",
+    "properties": {
+      "Title#149:24": {
+        "name": "Title",
+        "type": "TEXT",
+        "key": "Title#149:24"
+      },
+      "Content#149:27": {
+        "name": "Content",
+        "type": "TEXT",
+        "key": "Content#149:27"
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Closed",
+          "Open"
+        ]
+      }
+    }
+  },
+  "5:14220": {
+    "name": "Avatar",
+    "properties": {
+      "Initials#24:281": {
+        "name": "Initials",
+        "type": "TEXT",
+        "key": "Initials#24:281"
+      },
+      "Type": {
+        "name": "Type",
+        "type": "VARIANT",
+        "key": "Type",
+        "variantOptions": [
+          "Initial",
+          "Image"
+        ]
+      },
+      "Size": {
+        "name": "Size",
+        "type": "VARIANT",
+        "key": "Size",
+        "variantOptions": [
+          "Large",
+          "Small",
+          "Medium"
+        ]
+      },
+      "Shape": {
+        "name": "Shape",
+        "type": "VARIANT",
+        "key": "Shape",
+        "variantOptions": [
+          "Circle",
+          "Square"
+        ]
+      }
+    }
+  },
+  "5:14245": {
+    "name": "Avatar Block",
+    "properties": {
+      "Title#2010:7": {
+        "name": "Title",
+        "type": "TEXT",
+        "key": "Title#2010:7"
+      },
+      "Description#2010:8": {
+        "name": "Description",
+        "type": "TEXT",
+        "key": "Description#2010:8"
+      }
+    }
+  },
+  "5:14251": {
+    "name": "Avatar Group",
+    "properties": {
+      "Show Overflow#56:147": {
+        "name": "Show Overflow",
+        "type": "BOOLEAN",
+        "key": "Show Overflow#56:147"
+      },
+      "Number#280:65": {
+        "name": "Number",
+        "type": "TEXT",
+        "key": "Number#280:65"
+      },
+      "Avatars#6031:10": {
+        "name": "Avatars",
+        "type": "SLOT",
+        "key": "Avatars#6031:10"
+      },
+      "Avatars2#6031:13": {
+        "name": "Avatars2",
+        "type": "SLOT",
+        "key": "Avatars2#6031:13"
+      },
+      "Spacing": {
+        "name": "Spacing",
+        "type": "VARIANT",
+        "key": "Spacing",
+        "variantOptions": [
+          "Overlap",
+          "Spaced"
+        ]
+      }
+    }
+  },
+  "3:129": {
+    "name": "Button",
+    "properties": {
+      "Label#2:0": {
+        "name": "Label",
+        "type": "TEXT",
+        "key": "Label#2:0"
+      },
+      "Icon End#4:0": {
+        "name": "Icon End",
+        "type": "INSTANCE_SWAP",
+        "key": "Icon End#4:0"
+      },
+      "Has Icon End#4:64": {
+        "name": "Has Icon End",
+        "type": "BOOLEAN",
+        "key": "Has Icon End#4:64"
+      },
+      "Has Icon Start#4:128": {
+        "name": "Has Icon Start",
+        "type": "BOOLEAN",
+        "key": "Has Icon Start#4:128"
+      },
+      "Icon Start#4:192": {
+        "name": "Icon Start",
+        "type": "INSTANCE_SWAP",
+        "key": "Icon Start#4:192"
+      },
+      "Variant": {
+        "name": "Variant",
+        "type": "VARIANT",
+        "key": "Variant",
+        "variantOptions": [
+          "Primary",
+          "Neutral",
+          "Subtle"
+        ]
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Hover",
+          "Disabled"
+        ]
+      },
+      "Size": {
+        "name": "Size",
+        "type": "VARIANT",
+        "key": "Size",
+        "variantOptions": [
+          "Medium",
+          "Small"
+        ]
+      }
+    }
+  },
+  "5:234": {
+    "name": "Button Danger",
+    "properties": {
+      "Label#2:0": {
+        "name": "Label",
+        "type": "TEXT",
+        "key": "Label#2:0"
+      },
+      "Icon End#4:0": {
+        "name": "Icon End",
+        "type": "INSTANCE_SWAP",
+        "key": "Icon End#4:0"
+      },
+      "Has Icon End#4:64": {
+        "name": "Has Icon End",
+        "type": "BOOLEAN",
+        "key": "Has Icon End#4:64"
+      },
+      "Has Icon Start#4:128": {
+        "name": "Has Icon Start",
+        "type": "BOOLEAN",
+        "key": "Has Icon Start#4:128"
+      },
+      "Icon Start#4:192": {
+        "name": "Icon Start",
+        "type": "INSTANCE_SWAP",
+        "key": "Icon Start#4:192"
+      },
+      "Variant": {
+        "name": "Variant",
+        "type": "VARIANT",
+        "key": "Variant",
+        "variantOptions": [
+          "Primary",
+          "Subtle"
+        ]
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Hover",
+          "Disabled"
+        ]
+      },
+      "Size": {
+        "name": "Size",
+        "type": "VARIANT",
+        "key": "Size",
+        "variantOptions": [
+          "Medium",
+          "Small"
+        ]
+      }
+    }
+  },
+  "5:188": {
+    "name": "Button Group",
+    "properties": {
+      "Button Start#2106:0": {
+        "name": "Button Start",
+        "type": "BOOLEAN",
+        "key": "Button Start#2106:0"
+      },
+      "Button End#2106:5": {
+        "name": "Button End",
+        "type": "BOOLEAN",
+        "key": "Button End#2106:5"
+      },
+      "Align": {
+        "name": "Align",
+        "type": "VARIANT",
+        "key": "Align",
+        "variantOptions": [
+          "Justify",
+          "Start",
+          "End",
+          "Center",
+          "Stack"
+        ]
+      }
+    }
+  },
+  "6:166": {
+    "name": "Checkbox Field",
+    "properties": {
+      "Has Description#31:31": {
+        "name": "Has Description",
+        "type": "BOOLEAN",
+        "key": "Has Description#31:31"
+      },
+      "Description#280:81": {
+        "name": "Description",
+        "type": "TEXT",
+        "key": "Description#280:81"
+      },
+      "Label#373:9": {
+        "name": "Label",
+        "type": "TEXT",
+        "key": "Label#373:9"
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Disabled"
+        ]
+      },
+      "Value Type": {
+        "name": "Value Type",
+        "type": "VARIANT",
+        "key": "Value Type",
+        "variantOptions": [
+          "Unchecked",
+          "Checked",
+          "Indeterminate"
+        ]
+      }
+    }
+  },
+  "12:47": {
+    "name": "Checkbox Group",
+    "properties": {}
+  },
+  "5:14931": {
+    "name": "Dialog",
+    "properties": {}
+  },
+  "5:14893": {
+    "name": "Dialog Body",
+    "properties": {
+      "Dismissible#228:0": {
+        "name": "Dismissible",
+        "type": "BOOLEAN",
+        "key": "Dismissible#228:0"
+      },
+      "Body#280:26": {
+        "name": "Body",
+        "type": "TEXT",
+        "key": "Body#280:26"
+      },
+      "Heading#280:29": {
+        "name": "Heading",
+        "type": "TEXT",
+        "key": "Heading#280:29"
+      },
+      "Slot#6031:16": {
+        "name": "Slot",
+        "type": "SLOT",
+        "key": "Slot#6031:16"
+      },
+      "Slot 2#6031:19": {
+        "name": "Slot 2",
+        "type": "SLOT",
+        "key": "Slot 2#6031:19"
+      },
+      "Type": {
+        "name": "Type",
+        "type": "VARIANT",
+        "key": "Type",
+        "variantOptions": [
+          "Card",
+          "Sheet"
+        ]
+      }
+    }
+  },
+  "7:53": {
+    "name": "Menu",
+    "properties": {
+      "Slot#6031:22": {
+        "name": "Slot",
+        "type": "SLOT",
+        "key": "Slot#6031:22"
+      }
+    }
+  },
+  "7:111": {
+    "name": "Menu Header",
+    "properties": {}
+  },
+  "7:116": {
+    "name": "Menu Heading",
+    "properties": {}
+  },
+  "7:121": {
+    "name": "Menu Item",
+    "properties": {
+      "Has Description#17:276": {
+        "name": "Has Description",
+        "type": "BOOLEAN",
+        "key": "Has Description#17:276"
+      },
+      "Has Icon#17:277": {
+        "name": "Has Icon",
+        "type": "BOOLEAN",
+        "key": "Has Icon#17:277"
+      },
+      "Icon#17:278": {
+        "name": "Icon",
+        "type": "INSTANCE_SWAP",
+        "key": "Icon#17:278"
+      },
+      "Has Shortcut#17:279": {
+        "name": "Has Shortcut",
+        "type": "BOOLEAN",
+        "key": "Has Shortcut#17:279"
+      },
+      "Label#280:51": {
+        "name": "Label",
+        "type": "TEXT",
+        "key": "Label#280:51"
+      },
+      "Description#280:55": {
+        "name": "Description",
+        "type": "TEXT",
+        "key": "Description#280:55"
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Hover",
+          "Disabled"
+        ]
+      }
+    }
+  },
+  "7:119": {
+    "name": "Menu Separator",
+    "properties": {}
+  },
+  "12:128": {
+    "name": "Menu Shortcut",
+    "properties": {
+      "Shortcut#12:0": {
+        "name": "Shortcut",
+        "type": "TEXT",
+        "key": "Shortcut#12:0"
+      }
+    }
+  },
+  "7:206": {
+    "name": "Navigation Button",
+    "properties": {
+      "Label#515:1": {
+        "name": "Label",
+        "type": "TEXT",
+        "key": "Label#515:1"
+      },
+      "Icon#515:2": {
+        "name": "Icon",
+        "type": "INSTANCE_SWAP",
+        "key": "Icon#515:2"
+      },
+      "Has Icon#515:5": {
+        "name": "Has Icon",
+        "type": "BOOLEAN",
+        "key": "Has Icon#515:5"
+      },
+      "Has Label#515:8": {
+        "name": "Has Label",
+        "type": "BOOLEAN",
+        "key": "Has Label#515:8"
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Hover",
+          "Active"
+        ]
+      },
+      "Direction": {
+        "name": "Direction",
+        "type": "VARIANT",
+        "key": "Direction",
+        "variantOptions": [
+          "Column",
+          "Row"
+        ]
+      },
+      "Type": {
+        "name": "Type",
+        "type": "VARIANT",
+        "key": "Type",
+        "variantOptions": [
+          "Small",
+          "Medium"
+        ]
+      }
+    }
+  },
+  "7:255": {
+    "name": "Navigation Button List",
+    "properties": {
+      "Link 2#2194:4": {
+        "name": "Link 2",
+        "type": "BOOLEAN",
+        "key": "Link 2#2194:4"
+      },
+      "Link 5#2194:5": {
+        "name": "Link 5",
+        "type": "BOOLEAN",
+        "key": "Link 5#2194:5"
+      },
+      "Link 4#2194:6": {
+        "name": "Link 4",
+        "type": "BOOLEAN",
+        "key": "Link 4#2194:6"
+      },
+      "Link 3#2194:7": {
+        "name": "Link 3",
+        "type": "BOOLEAN",
+        "key": "Link 3#2194:7"
+      },
+      "Link 1#2194:8": {
+        "name": "Link 1",
+        "type": "BOOLEAN",
+        "key": "Link 1#2194:8"
+      },
+      "Slot#6062:64": {
+        "name": "Slot",
+        "type": "SLOT",
+        "key": "Slot#6062:64"
+      },
+      "Direction": {
+        "name": "Direction",
+        "type": "VARIANT",
+        "key": "Direction",
+        "variantOptions": [
+          "Row",
+          "Column"
+        ]
+      }
+    }
+  },
+  "7:335": {
+    "name": "Navigation Pill",
+    "properties": {
+      "Label#156:33": {
+        "name": "Label",
+        "type": "TEXT",
+        "key": "Label#156:33"
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Active",
+          "Hover"
+        ]
+      }
+    }
+  },
+  "7:304": {
+    "name": "Navigation Pill List",
+    "properties": {
+      "Link 6#2194:3": {
+        "name": "Link 6",
+        "type": "BOOLEAN",
+        "key": "Link 6#2194:3"
+      },
+      "Link 2#2194:4": {
+        "name": "Link 2",
+        "type": "BOOLEAN",
+        "key": "Link 2#2194:4"
+      },
+      "Link 5#2194:5": {
+        "name": "Link 5",
+        "type": "BOOLEAN",
+        "key": "Link 5#2194:5"
+      },
+      "Link 4#2194:6": {
+        "name": "Link 4",
+        "type": "BOOLEAN",
+        "key": "Link 4#2194:6"
+      },
+      "Link 3#2194:7": {
+        "name": "Link 3",
+        "type": "BOOLEAN",
+        "key": "Link 3#2194:7"
+      },
+      "Link 1#2194:8": {
+        "name": "Link 1",
+        "type": "BOOLEAN",
+        "key": "Link 1#2194:8"
+      },
+      "Link 7#3529:0": {
+        "name": "Link 7",
+        "type": "BOOLEAN",
+        "key": "Link 7#3529:0"
+      },
+      "Slot#6061:0": {
+        "name": "Slot",
+        "type": "SLOT",
+        "key": "Slot#6061:0"
+      },
+      "Slot 2#6061:3": {
+        "name": "Slot 2",
+        "type": "SLOT",
+        "key": "Slot 2#6061:3"
+      },
+      "Direction": {
+        "name": "Direction",
+        "type": "VARIANT",
+        "key": "Direction",
+        "variantOptions": [
+          "Row",
+          "Column"
+        ]
+      }
+    }
+  },
+  "7:530": {
+    "name": "Pagination",
+    "properties": {}
+  },
+  "7:561": {
+    "name": "Pagination Gap",
+    "properties": {}
+  },
+  "7:598": {
+    "name": "Pagination List",
+    "properties": {
+      "Slot#6031:26": {
+        "name": "Slot",
+        "type": "SLOT",
+        "key": "Slot#6031:26"
+      }
+    }
+  },
+  "7:563": {
+    "name": "Pagination Next",
+    "properties": {
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Hover",
+          "Disabled"
+        ]
+      }
+    }
+  },
+  "7:589": {
+    "name": "Pagination Page",
+    "properties": {
+      "Number#33:0": {
+        "name": "Number",
+        "type": "TEXT",
+        "key": "Number#33:0"
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Hover",
+          "Current",
+          "Current Hover"
+        ]
+      }
+    }
+  },
+  "7:576": {
+    "name": "Pagination Previous",
+    "properties": {
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Hover",
+          "Disabled"
+        ]
+      }
+    }
+  },
+  "6:364": {
+    "name": "Radio Field",
+    "properties": {
+      "Has Description#31:32": {
+        "name": "Has Description",
+        "type": "BOOLEAN",
+        "key": "Has Description#31:32"
+      },
+      "Description#305:0": {
+        "name": "Description",
+        "type": "TEXT",
+        "key": "Description#305:0"
+      },
+      "Label#373:3": {
+        "name": "Label",
+        "type": "TEXT",
+        "key": "Label#373:3"
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Disabled"
+        ]
+      },
+      "Value Type": {
+        "name": "Value Type",
+        "type": "VARIANT",
+        "key": "Value Type",
+        "variantOptions": [
+          "Unchecked",
+          "Checked"
+        ]
+      }
+    }
+  },
+  "12:22": {
+    "name": "Radio Group",
+    "properties": {}
+  },
+  "7:631": {
+    "name": "Tab",
+    "properties": {
+      "Label#157:36": {
+        "name": "Label",
+        "type": "TEXT",
+        "key": "Label#157:36"
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Hover"
+        ]
+      },
+      "Active": {
+        "name": "Active",
+        "type": "VARIANT",
+        "key": "Active",
+        "variantOptions": [
+          "Off",
+          "On"
+        ]
+      }
+    }
+  },
+  "7:640": {
+    "name": "Tabs",
+    "properties": {
+      "Slot#6031:27": {
+        "name": "Slot",
+        "type": "SLOT",
+        "key": "Slot#6031:27"
+      }
+    }
+  },
+  "7:654": {
+    "name": "Tag",
+    "properties": {
+      "Removable#147:0": {
+        "name": "Removable",
+        "type": "BOOLEAN",
+        "key": "Removable#147:0"
+      },
+      "Label#9765:0": {
+        "name": "Label",
+        "type": "TEXT",
+        "key": "Label#9765:0"
+      },
+      "Scheme": {
+        "name": "Scheme",
+        "type": "VARIANT",
+        "key": "Scheme",
+        "variantOptions": [
+          "Brand",
+          "Neutral",
+          "Positive",
+          "Danger",
+          "Warning"
+        ]
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Hover"
+        ]
+      },
+      "Variant": {
+        "name": "Variant",
+        "type": "VARIANT",
+        "key": "Variant",
+        "variantOptions": [
+          "Primary",
+          "Secondary"
+        ]
+      }
+    }
+  },
+  "7:754": {
+    "name": "Tag Toggle",
+    "properties": {
+      "Show Icon#86:12": {
+        "name": "Show Icon",
+        "type": "BOOLEAN",
+        "key": "Show Icon#86:12"
+      },
+      "Icon#87:4": {
+        "name": "Icon",
+        "type": "INSTANCE_SWAP",
+        "key": "Icon#87:4"
+      },
+      "Label#156:33": {
+        "name": "Label",
+        "type": "TEXT",
+        "key": "Label#156:33"
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Off",
+          "On"
+        ]
+      }
+    }
+  },
+  "7:735": {
+    "name": "Tag Toggle Group",
+    "properties": {
+      "Slot#6031:28": {
+        "name": "Slot",
+        "type": "SLOT",
+        "key": "Slot#6031:28"
+      }
+    }
+  },
+  "7:890": {
+    "name": "Text",
+    "properties": {
+      "Text#2104:7": {
+        "name": "Text",
+        "type": "TEXT",
+        "key": "Text#2104:7"
+      }
+    }
+  },
+  "7:882": {
+    "name": "Text Code",
+    "properties": {
+      "Text#2140:5": {
+        "name": "Text",
+        "type": "TEXT",
+        "key": "Text#2140:5"
+      }
+    }
+  },
+  "7:779": {
+    "name": "Text Content Heading",
+    "properties": {
+      "Has Subheading#2153:9": {
+        "name": "Has Subheading",
+        "type": "BOOLEAN",
+        "key": "Has Subheading#2153:9"
+      },
+      "Heading#2153:10": {
+        "name": "Heading",
+        "type": "TEXT",
+        "key": "Heading#2153:10"
+      },
+      "Subheading#2153:11": {
+        "name": "Subheading",
+        "type": "TEXT",
+        "key": "Subheading#2153:11"
+      },
+      "Align": {
+        "name": "Align",
+        "type": "VARIANT",
+        "key": "Align",
+        "variantOptions": [
+          "Start",
+          "Center"
+        ]
+      }
+    }
+  },
+  "7:786": {
+    "name": "Text Content Title",
+    "properties": {
+      "Subtitle#2153:12": {
+        "name": "Subtitle",
+        "type": "TEXT",
+        "key": "Subtitle#2153:12"
+      },
+      "Has Subtitle#2153:13": {
+        "name": "Has Subtitle",
+        "type": "BOOLEAN",
+        "key": "Has Subtitle#2153:13"
+      },
+      "Title#2153:14": {
+        "name": "Title",
+        "type": "TEXT",
+        "key": "Title#2153:14"
+      },
+      "Align": {
+        "name": "Align",
+        "type": "VARIANT",
+        "key": "Align",
+        "variantOptions": [
+          "Start",
+          "Center"
+        ]
+      }
+    }
+  },
+  "7:888": {
+    "name": "Text Emphasis",
+    "properties": {
+      "Text#2104:9": {
+        "name": "Text",
+        "type": "TEXT",
+        "key": "Text#2104:9"
+      }
+    }
+  },
+  "7:894": {
+    "name": "Text Heading",
+    "properties": {
+      "Text#2104:5": {
+        "name": "Text",
+        "type": "TEXT",
+        "key": "Text#2104:5"
+      }
+    }
+  },
+  "7:886": {
+    "name": "Text Link",
+    "properties": {
+      "Text#2104:10": {
+        "name": "Text",
+        "type": "TEXT",
+        "key": "Text#2104:10"
+      }
+    }
+  },
+  "7:793": {
+    "name": "Text Link List",
+    "properties": {
+      "Has Title#322:21": {
+        "name": "Has Title",
+        "type": "BOOLEAN",
+        "key": "Has Title#322:21"
+      },
+      "Slot#6062:6": {
+        "name": "Slot",
+        "type": "SLOT",
+        "key": "Slot#6062:6"
+      },
+      "Density": {
+        "name": "Density",
+        "type": "VARIANT",
+        "key": "Density",
+        "variantOptions": [
+          "Default",
+          "Tight"
+        ]
+      }
+    }
+  },
+  "7:904": {
+    "name": "Text Link List Item",
+    "properties": {
+      "Text#2153:15": {
+        "name": "Text",
+        "type": "TEXT",
+        "key": "Text#2153:15"
+      }
+    }
+  },
+  "7:832": {
+    "name": "Text List",
+    "properties": {
+      "Has Title#480:0": {
+        "name": "Has Title",
+        "type": "BOOLEAN",
+        "key": "Has Title#480:0"
+      },
+      "Slot#6062:9": {
+        "name": "Slot",
+        "type": "SLOT",
+        "key": "Slot#6062:9"
+      },
+      "Density": {
+        "name": "Density",
+        "type": "VARIANT",
+        "key": "Density",
+        "variantOptions": [
+          "Default",
+          "Tight"
+        ]
+      }
+    }
+  },
+  "7:902": {
+    "name": "Text List Item",
+    "properties": {
+      "Text#2077:1": {
+        "name": "Text",
+        "type": "TEXT",
+        "key": "Text#2077:1"
+      }
+    }
+  },
+  "7:869": {
+    "name": "Text Price",
+    "properties": {
+      "Price#1443:0": {
+        "name": "Price",
+        "type": "TEXT",
+        "key": "Price#1443:0"
+      },
+      "Label#1443:1": {
+        "name": "Label",
+        "type": "TEXT",
+        "key": "Label#1443:1"
+      },
+      "Currency#1443:2": {
+        "name": "Currency",
+        "type": "TEXT",
+        "key": "Currency#1443:2"
+      },
+      "Has Label#1443:3": {
+        "name": "Has Label",
+        "type": "BOOLEAN",
+        "key": "Has Label#1443:3"
+      },
+      "Size": {
+        "name": "Size",
+        "type": "VARIANT",
+        "key": "Size",
+        "variantOptions": [
+          "Large",
+          "Small"
+        ]
+      }
+    }
+  },
+  "7:880": {
+    "name": "Text Small",
+    "properties": {
+      "Text#2104:11": {
+        "name": "Text",
+        "type": "TEXT",
+        "key": "Text#2104:11"
+      }
+    }
+  },
+  "7:884": {
+    "name": "Text Strong",
+    "properties": {
+      "Text#2104:8": {
+        "name": "Text",
+        "type": "TEXT",
+        "key": "Text#2104:8"
+      }
+    }
+  },
+  "7:892": {
+    "name": "Text Subheading",
+    "properties": {
+      "Text#2104:6": {
+        "name": "Text",
+        "type": "TEXT",
+        "key": "Text#2104:6"
+      }
+    }
+  },
+  "7:896": {
+    "name": "Text Subtitle",
+    "properties": {
+      "Text#2104:4": {
+        "name": "Text",
+        "type": "TEXT",
+        "key": "Text#2104:4"
+      }
+    }
+  },
+  "7:900": {
+    "name": "Text Title Hero",
+    "properties": {
+      "Text#2104:3": {
+        "name": "Text",
+        "type": "TEXT",
+        "key": "Text#2104:3"
+      }
+    }
+  },
+  "7:898": {
+    "name": "Text Title Page",
+    "properties": {
+      "Text#2104:2": {
+        "name": "Text",
+        "type": "TEXT",
+        "key": "Text#2104:2"
+      }
+    }
+  },
+  "20:66": {
+    "name": "Icon Button Danger",
+    "properties": {
+      "Icon#4:192": {
+        "name": "Icon",
+        "type": "INSTANCE_SWAP",
+        "key": "Icon#4:192"
+      },
+      "Variant": {
+        "name": "Variant",
+        "type": "VARIANT",
+        "key": "Variant",
+        "variantOptions": [
+          "Primary",
+          "Subtle"
+        ]
+      },
+      "State": {
+        "name": "State",
+        "type": "VARIANT",
+        "key": "State",
+        "variantOptions": [
+          "Default",
+          "Hover",
+          "Disabled"
+        ]
+      },
+      "Size": {
+        "name": "Size",
+        "type": "VARIANT",
+        "key": "Size",
+        "variantOptions": [
+          "Medium",
+          "Small"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,778 @@
+[
+  {
+    "id": "7:2920",
+    "name": "Footer",
+    "type": "COMPONENT_SET",
+    "page": "Sections",
+    "constant": "<FIGMA_SECTIONS_FOOTER>",
+    "template": "src/figma/compositions/Footer.figma.ts"
+  },
+  {
+    "id": "5:14602",
+    "name": "Card",
+    "type": "COMPONENT_SET",
+    "page": "Cards",
+    "constant": "<FIGMA_CARDS_CARD>",
+    "template": "src/figma/compositions/card/Card.figma.ts"
+  },
+  {
+    "id": "5:14752",
+    "name": "Pricing Card",
+    "type": "COMPONENT_SET",
+    "page": "Cards",
+    "constant": "<FIGMA_CARDS_PRICING_CARD>",
+    "template": "src/figma/compositions/card/PricingCard.figma.ts"
+  },
+  {
+    "id": "5:14703",
+    "name": "Product Info Card",
+    "type": "COMPONENT",
+    "page": "Cards",
+    "constant": "<FIGMA_CARDS_PRODUCT_INFO_CARD>",
+    "template": "src/figma/compositions/card/ProductInfoCard.figma.ts"
+  },
+  {
+    "id": "5:14729",
+    "name": "Review Card",
+    "type": "COMPONENT",
+    "page": "Cards",
+    "constant": "<FIGMA_CARDS_REVIEW_CARD>",
+    "template": "src/figma/compositions/card/ReviewCard.figma.ts"
+  },
+  {
+    "id": "5:14721",
+    "name": "Stats Card",
+    "type": "COMPONENT",
+    "page": "Cards",
+    "constant": "<FIGMA_CARDS_STATS_CARD>",
+    "template": "src/figma/compositions/card/StatsCard.figma.ts"
+  },
+  {
+    "id": "5:14712",
+    "name": "Testimonial Card",
+    "type": "COMPONENT",
+    "page": "Cards",
+    "constant": "<FIGMA_CARDS_TESTIMONIAL_CARD>",
+    "template": "src/figma/compositions/card/TestimonialCard.figma.ts"
+  },
+  {
+    "id": "7:1381",
+    "name": "Card Grid Content List",
+    "type": "COMPONENT_SET",
+    "page": "Sections",
+    "constant": "<FIGMA_SECTIONS_CARD_GRID_CONTENT_LIST>",
+    "template": "src/figma/compositions/card-grid/CardGridContentList.figma.ts"
+  },
+  {
+    "id": "7:1174",
+    "name": "Card Grid Icon",
+    "type": "COMPONENT_SET",
+    "page": "Sections",
+    "constant": "<FIGMA_SECTIONS_CARD_GRID_ICON>",
+    "template": "src/figma/compositions/card-grid/CardGridIcon.figma.ts"
+  },
+  {
+    "id": "7:1282",
+    "name": "Card Grid Image",
+    "type": "COMPONENT_SET",
+    "page": "Sections",
+    "constant": "<FIGMA_SECTIONS_CARD_GRID_IMAGE>",
+    "template": "src/figma/compositions/card-grid/CardGridImage.figma.ts"
+  },
+  {
+    "id": "7:1474",
+    "name": "Card Grid Pricing",
+    "type": "COMPONENT_SET",
+    "page": "Sections",
+    "constant": "<FIGMA_SECTIONS_CARD_GRID_PRICING>",
+    "template": "src/figma/compositions/card-grid/CardGridPricing.figma.ts"
+  },
+  {
+    "id": "7:1889",
+    "name": "Card Grid Reviews",
+    "type": "COMPONENT_SET",
+    "page": "Sections",
+    "constant": "<FIGMA_SECTIONS_CARD_GRID_REVIEWS>",
+    "template": "src/figma/compositions/card-grid/CardGridReviews.figma.ts"
+  },
+  {
+    "id": "7:1763",
+    "name": "Card Grid Testimonials",
+    "type": "COMPONENT_SET",
+    "page": "Sections",
+    "constant": "<FIGMA_SECTIONS_CARD_GRID_TESTIMONIALS>",
+    "template": "src/figma/compositions/card-grid/CardGridTestimonials.figma.ts"
+  },
+  {
+    "id": "7:1076",
+    "name": "Form Contact",
+    "type": "COMPONENT",
+    "page": "Forms",
+    "constant": "<FIGMA_FORMS_FORM_CONTACT>",
+    "template": "src/figma/compositions/form/FormContact.figma.ts"
+  },
+  {
+    "id": "7:1152",
+    "name": "Form Forgot Password",
+    "type": "COMPONENT",
+    "page": "Forms",
+    "constant": "<FIGMA_FORMS_FORM_FORGOT_PASSWORD>",
+    "template": "src/figma/compositions/form/FormForgotPassword.figma.ts"
+  },
+  {
+    "id": "7:1044",
+    "name": "Form Log In",
+    "type": "COMPONENT",
+    "page": "Forms",
+    "constant": "<FIGMA_FORMS_FORM_LOG_IN>",
+    "template": "src/figma/compositions/form/FormLogIn.figma.ts"
+  },
+  {
+    "id": "7:1065",
+    "name": "Form Newsletter",
+    "type": "COMPONENT",
+    "page": "Forms",
+    "constant": "<FIGMA_FORMS_FORM_NEWSLETTER>",
+    "template": "src/figma/compositions/form/FormNewsletter.figma.ts"
+  },
+  {
+    "id": "7:1012",
+    "name": "Form Register",
+    "type": "COMPONENT",
+    "page": "Forms",
+    "constant": "<FIGMA_FORMS_FORM_REGISTER>",
+    "template": "src/figma/compositions/form/FormRegister.figma.ts"
+  },
+  {
+    "id": "7:1108",
+    "name": "Form Shipping",
+    "type": "COMPONENT",
+    "page": "Forms",
+    "constant": "<FIGMA_FORMS_FORM_SHIPPING>",
+    "template": "src/figma/compositions/form/FormShipping.figma.ts"
+  },
+  {
+    "id": "7:3217",
+    "name": "Header",
+    "type": "COMPONENT_SET",
+    "page": "Sections",
+    "constant": "<FIGMA_SECTIONS_HEADER>",
+    "template": "src/figma/compositions/header/Header.figma.ts"
+  },
+  {
+    "id": "7:3311",
+    "name": "Header Auth",
+    "type": "COMPONENT_SET",
+    "page": "Sections",
+    "constant": "<FIGMA_SECTIONS_HEADER_AUTH>",
+    "template": "src/figma/compositions/header/HeaderAuth.figma.ts"
+  },
+  {
+    "id": "7:2726",
+    "name": "Hero Actions",
+    "type": "COMPONENT_SET",
+    "page": "Sections",
+    "constant": "<FIGMA_SECTIONS_HERO_ACTIONS>",
+    "template": "src/figma/compositions/hero/HeroActions.figma.ts"
+  },
+  {
+    "id": "7:2717",
+    "name": "Hero Basic",
+    "type": "COMPONENT_SET",
+    "page": "Sections",
+    "constant": "<FIGMA_SECTIONS_HERO_BASIC>",
+    "template": "src/figma/compositions/hero/HeroBasic.figma.ts"
+  },
+  {
+    "id": "7:2789",
+    "name": "Hero Form",
+    "type": "COMPONENT_SET",
+    "page": "Sections",
+    "constant": "<FIGMA_SECTIONS_HERO_FORM>",
+    "template": "src/figma/compositions/hero/HeroForm.figma.ts"
+  },
+  {
+    "id": "7:2888",
+    "name": "Hero Image",
+    "type": "COMPONENT_SET",
+    "page": "Sections",
+    "constant": "<FIGMA_SECTIONS_HERO_IMAGE>",
+    "template": "src/figma/compositions/hero/HeroImage.figma.ts"
+  },
+  {
+    "id": "7:2758",
+    "name": "Hero Newsletter",
+    "type": "COMPONENT_SET",
+    "page": "Sections",
+    "constant": "<FIGMA_SECTIONS_HERO_NEWSLETTER>",
+    "template": "src/figma/compositions/hero/HeroNewsletter.figma.ts"
+  },
+  {
+    "id": "7:2048",
+    "name": "Page Accordion",
+    "type": "COMPONENT_SET",
+    "page": "Sections",
+    "constant": "<FIGMA_SECTIONS_PAGE_ACCORDION>",
+    "template": "src/figma/compositions/page/PageAccordion.figma.ts"
+  },
+  {
+    "id": "7:2624",
+    "name": "Page Newsletter",
+    "type": "COMPONENT_SET",
+    "page": "Sections",
+    "constant": "<FIGMA_SECTIONS_PAGE_NEWSLETTER>",
+    "template": "src/figma/compositions/page/PageNewsletter.figma.ts"
+  },
+  {
+    "id": "7:2145",
+    "name": "Page Product",
+    "type": "COMPONENT_SET",
+    "page": "Sections",
+    "constant": "<FIGMA_SECTIONS_PAGE_PRODUCT>",
+    "template": "src/figma/compositions/page/PageProduct.figma.ts"
+  },
+  {
+    "id": "7:2306",
+    "name": "Page Product Results",
+    "type": "COMPONENT_SET",
+    "page": "Sections",
+    "constant": "<FIGMA_SECTIONS_PAGE_PRODUCT_RESULTS>",
+    "template": "src/figma/compositions/page/PageProductResults.figma.ts"
+  },
+  {
+    "id": "7:2705",
+    "name": "Panel Image",
+    "type": "COMPONENT_SET",
+    "page": "Sections",
+    "constant": "<FIGMA_SECTIONS_PANEL_IMAGE>",
+    "template": "src/figma/compositions/panel/PanelImage.figma.ts"
+  },
+  {
+    "id": "7:2663",
+    "name": "Panel Image Content",
+    "type": "COMPONENT_SET",
+    "page": "Sections",
+    "constant": "<FIGMA_SECTIONS_PANEL_IMAGE_CONTENT>",
+    "template": "src/figma/compositions/panel/PanelImageContent.figma.ts"
+  },
+  {
+    "id": "7:2684",
+    "name": "Panel Image Content Reverse",
+    "type": "COMPONENT_SET",
+    "page": "Sections",
+    "constant": "<FIGMA_SECTIONS_PANEL_IMAGE_CONTENT_REVERSE>",
+    "template": "src/figma/compositions/panel/PanelImageContentReverse.figma.ts"
+  },
+  {
+    "id": "7:2710",
+    "name": "Panel Image Double",
+    "type": "COMPONENT_SET",
+    "page": "Sections",
+    "constant": "<FIGMA_SECTIONS_PANEL_IMAGE_DOUBLE>",
+    "template": "src/figma/compositions/panel/PanelImageDouble.figma.ts"
+  },
+  {
+    "id": "5:133",
+    "name": "Icon Button",
+    "type": "COMPONENT_SET",
+    "page": "Buttons",
+    "constant": "<FIGMA_BUTTONS_ICON_BUTTON>",
+    "template": "src/figma/primitives/IconButton.figma.ts"
+  },
+  {
+    "id": "6:327",
+    "name": "Input Field",
+    "type": "COMPONENT_SET",
+    "page": "Inputs",
+    "constant": "<FIGMA_INPUTS_INPUT_FIELD>",
+    "template": "src/figma/primitives/InputField.figma.ts"
+  },
+  {
+    "id": "7:449",
+    "name": "Notification",
+    "type": "COMPONENT_SET",
+    "page": "Notification",
+    "constant": "<FIGMA_NOTIFICATION_NOTIFICATION>",
+    "template": "src/figma/primitives/Notification.figma.ts"
+  },
+  {
+    "id": "6:466",
+    "name": "Search",
+    "type": "COMPONENT_SET",
+    "page": "Inputs",
+    "constant": "<FIGMA_INPUTS_SEARCH>",
+    "template": "src/figma/primitives/Search.figma.ts"
+  },
+  {
+    "id": "6:397",
+    "name": "Select Field",
+    "type": "COMPONENT_SET",
+    "page": "Inputs",
+    "constant": "<FIGMA_INPUTS_SELECT_FIELD>",
+    "template": "src/figma/primitives/SelectField.figma.ts"
+  },
+  {
+    "id": "6:483",
+    "name": "Slider Field",
+    "type": "COMPONENT_SET",
+    "page": "Inputs",
+    "constant": "<FIGMA_INPUTS_SLIDER_FIELD>",
+    "template": "src/figma/primitives/SliderField.figma.ts"
+  },
+  {
+    "id": "6:508",
+    "name": "Switch Field",
+    "type": "COMPONENT_SET",
+    "page": "Inputs",
+    "constant": "<FIGMA_INPUTS_SWITCH_FIELD>",
+    "template": "src/figma/primitives/SwitchField.figma.ts"
+  },
+  {
+    "id": "6:533",
+    "name": "Textarea Field",
+    "type": "COMPONENT_SET",
+    "page": "Inputs",
+    "constant": "<FIGMA_INPUTS_TEXTAREA_FIELD>",
+    "template": "src/figma/primitives/TextareaField.figma.ts"
+  },
+  {
+    "id": "7:931",
+    "name": "Tooltip",
+    "type": "COMPONENT_SET",
+    "page": "Tooltip",
+    "constant": "<FIGMA_TOOLTIP_TOOLTIP>",
+    "template": "src/figma/primitives/Tooltip.figma.ts"
+  },
+  {
+    "id": "5:14082",
+    "name": "Accordion",
+    "type": "COMPONENT",
+    "page": "Accordion",
+    "constant": "<FIGMA_ACCORDION_ACCORDION>",
+    "template": "src/figma/primitives/accordion/Accordion.figma.ts"
+  },
+  {
+    "id": "5:14069",
+    "name": "Accordion Item",
+    "type": "COMPONENT_SET",
+    "page": "Accordion",
+    "constant": "<FIGMA_ACCORDION_ACCORDION_ITEM>",
+    "template": "src/figma/primitives/accordion/AccordionItem.figma.ts"
+  },
+  {
+    "id": "5:14220",
+    "name": "Avatar",
+    "type": "COMPONENT_SET",
+    "page": "Avatars",
+    "constant": "<FIGMA_AVATARS_AVATAR>",
+    "template": "src/figma/primitives/avatar/Avatar.figma.ts"
+  },
+  {
+    "id": "5:14245",
+    "name": "Avatar Block",
+    "type": "COMPONENT",
+    "page": "Avatars",
+    "constant": "<FIGMA_AVATARS_AVATAR_BLOCK>",
+    "template": "src/figma/primitives/avatar/AvatarBlock.figma.ts"
+  },
+  {
+    "id": "5:14251",
+    "name": "Avatar Group",
+    "type": "COMPONENT_SET",
+    "page": "Avatars",
+    "constant": "<FIGMA_AVATARS_AVATAR_GROUP>",
+    "template": "src/figma/primitives/avatar/AvatarGroup.figma.ts"
+  },
+  {
+    "id": "3:129",
+    "name": "Button",
+    "type": "COMPONENT_SET",
+    "page": "Buttons",
+    "constant": "<FIGMA_BUTTONS_BUTTON>",
+    "template": "src/figma/primitives/button/Button.figma.ts"
+  },
+  {
+    "id": "5:234",
+    "name": "Button Danger",
+    "type": "COMPONENT_SET",
+    "page": "Buttons",
+    "constant": "<FIGMA_BUTTONS_BUTTON_DANGER>",
+    "template": "src/figma/primitives/button/ButtonDanger.figma.ts"
+  },
+  {
+    "id": "5:188",
+    "name": "Button Group",
+    "type": "COMPONENT_SET",
+    "page": "Buttons",
+    "constant": "<FIGMA_BUTTONS_BUTTON_GROUP>",
+    "template": "src/figma/primitives/button/ButtonGroup.figma.ts"
+  },
+  {
+    "id": "6:166",
+    "name": "Checkbox Field",
+    "type": "COMPONENT_SET",
+    "page": "Inputs",
+    "constant": "<FIGMA_INPUTS_CHECKBOX_FIELD>",
+    "template": "src/figma/primitives/checkbox/CheckboxField.figma.ts"
+  },
+  {
+    "id": "12:47",
+    "name": "Checkbox Group",
+    "type": "COMPONENT",
+    "page": "Inputs",
+    "constant": "<FIGMA_INPUTS_CHECKBOX_GROUP>",
+    "template": "src/figma/primitives/checkbox/CheckboxGroup.figma.ts"
+  },
+  {
+    "id": "5:14931",
+    "name": "Dialog",
+    "type": "COMPONENT",
+    "page": "Dialog",
+    "constant": "<FIGMA_DIALOG_DIALOG>",
+    "template": "src/figma/primitives/dialog/Dialog.figma.ts"
+  },
+  {
+    "id": "5:14893",
+    "name": "Dialog Body",
+    "type": "COMPONENT_SET",
+    "page": "Dialog",
+    "constant": "<FIGMA_DIALOG_DIALOG_BODY>",
+    "template": "src/figma/primitives/dialog/DialogBody.figma.ts"
+  },
+  {
+    "id": "7:53",
+    "name": "Menu",
+    "type": "COMPONENT",
+    "page": "Menu",
+    "constant": "<FIGMA_MENU_MENU>",
+    "template": "src/figma/primitives/menu/Menu.figma.ts"
+  },
+  {
+    "id": "7:111",
+    "name": "Menu Header",
+    "type": "COMPONENT",
+    "page": "Menu",
+    "constant": "<FIGMA_MENU_MENU_HEADER>",
+    "template": "src/figma/primitives/menu/MenuHeader.figma.ts"
+  },
+  {
+    "id": "7:116",
+    "name": "Menu Heading",
+    "type": "COMPONENT",
+    "page": "Menu",
+    "constant": "<FIGMA_MENU_MENU_HEADING>",
+    "template": "src/figma/primitives/menu/MenuHeading.figma.ts"
+  },
+  {
+    "id": "7:121",
+    "name": "Menu Item",
+    "type": "COMPONENT_SET",
+    "page": "Menu",
+    "constant": "<FIGMA_MENU_MENU_ITEM>",
+    "template": "src/figma/primitives/menu/MenuItem.figma.ts"
+  },
+  {
+    "id": "7:119",
+    "name": "Menu Separator",
+    "type": "COMPONENT",
+    "page": "Menu",
+    "constant": "<FIGMA_MENU_MENU_SEPARATOR>",
+    "template": "src/figma/primitives/menu/MenuSeparator.figma.ts"
+  },
+  {
+    "id": "12:128",
+    "name": "Menu Shortcut",
+    "type": "COMPONENT",
+    "page": "Menu",
+    "constant": "<FIGMA_MENU_MENU_SHORTCUT>",
+    "template": "src/figma/primitives/menu/MenuShortcut.figma.ts"
+  },
+  {
+    "id": "7:206",
+    "name": "Navigation Button",
+    "type": "COMPONENT_SET",
+    "page": "Navigation",
+    "constant": "<FIGMA_NAVIGATION_NAVIGATION_BUTTON>",
+    "template": "src/figma/primitives/navigation/NavigationButton.figma.ts"
+  },
+  {
+    "id": "7:255",
+    "name": "Navigation Button List",
+    "type": "COMPONENT_SET",
+    "page": "Navigation",
+    "constant": "<FIGMA_NAVIGATION_NAVIGATION_BUTTON_LIST>",
+    "template": "src/figma/primitives/navigation/NavigationButtonList.figma.ts"
+  },
+  {
+    "id": "7:335",
+    "name": "Navigation Pill",
+    "type": "COMPONENT_SET",
+    "page": "Navigation",
+    "constant": "<FIGMA_NAVIGATION_NAVIGATION_PILL>",
+    "template": "src/figma/primitives/navigation/NavigationPill.figma.ts"
+  },
+  {
+    "id": "7:304",
+    "name": "Navigation Pill List",
+    "type": "COMPONENT_SET",
+    "page": "Navigation",
+    "constant": "<FIGMA_NAVIGATION_NAVIGATION_PILL_LIST>",
+    "template": "src/figma/primitives/navigation/NavigationPillList.figma.ts"
+  },
+  {
+    "id": "7:530",
+    "name": "Pagination",
+    "type": "COMPONENT",
+    "page": "Pagination",
+    "constant": "<FIGMA_PAGINATION_PAGINATION>",
+    "template": "src/figma/primitives/pagination/Pagination.figma.ts"
+  },
+  {
+    "id": "7:561",
+    "name": "Pagination Gap",
+    "type": "COMPONENT",
+    "page": "Pagination",
+    "constant": "<FIGMA_PAGINATION_PAGINATION_GAP>",
+    "template": "src/figma/primitives/pagination/PaginationGap.figma.ts"
+  },
+  {
+    "id": "7:598",
+    "name": "Pagination List",
+    "type": "COMPONENT",
+    "page": "Pagination",
+    "constant": "<FIGMA_PAGINATION_PAGINATION_LIST>",
+    "template": "src/figma/primitives/pagination/PaginationList.figma.ts"
+  },
+  {
+    "id": "7:563",
+    "name": "Pagination Next",
+    "type": "COMPONENT_SET",
+    "page": "Pagination",
+    "constant": "<FIGMA_PAGINATION_PAGINATION_NEXT>",
+    "template": "src/figma/primitives/pagination/PaginationNext.figma.ts"
+  },
+  {
+    "id": "7:589",
+    "name": "Pagination Page",
+    "type": "COMPONENT_SET",
+    "page": "Pagination",
+    "constant": "<FIGMA_PAGINATION_PAGINATION_PAGE>",
+    "template": "src/figma/primitives/pagination/PaginationPage.figma.ts"
+  },
+  {
+    "id": "7:576",
+    "name": "Pagination Previous",
+    "type": "COMPONENT_SET",
+    "page": "Pagination",
+    "constant": "<FIGMA_PAGINATION_PAGINATION_PREVIOUS>",
+    "template": "src/figma/primitives/pagination/PaginationPrevious.figma.ts"
+  },
+  {
+    "id": "6:364",
+    "name": "Radio Field",
+    "type": "COMPONENT_SET",
+    "page": "Inputs",
+    "constant": "<FIGMA_INPUTS_RADIO_FIELD>",
+    "template": "src/figma/primitives/radio/RadioField.figma.ts"
+  },
+  {
+    "id": "12:22",
+    "name": "Radio Group",
+    "type": "COMPONENT",
+    "page": "Inputs",
+    "constant": "<FIGMA_INPUTS_RADIO_GROUP>",
+    "template": "src/figma/primitives/radio/RadioGroup.figma.ts"
+  },
+  {
+    "id": "7:631",
+    "name": "Tab",
+    "type": "COMPONENT_SET",
+    "page": "Tabs",
+    "constant": "<FIGMA_TABS_TAB>",
+    "template": "src/figma/primitives/tab/Tab.figma.ts"
+  },
+  {
+    "id": "7:640",
+    "name": "Tabs",
+    "type": "COMPONENT",
+    "page": "Tabs",
+    "constant": "<FIGMA_TABS_TABS>",
+    "template": "src/figma/primitives/tab/Tabs.figma.ts"
+  },
+  {
+    "id": "7:654",
+    "name": "Tag",
+    "type": "COMPONENT_SET",
+    "page": "Tags",
+    "constant": "<FIGMA_TAGS_TAG>",
+    "template": "src/figma/primitives/tag/Tag.figma.ts"
+  },
+  {
+    "id": "7:754",
+    "name": "Tag Toggle",
+    "type": "COMPONENT_SET",
+    "page": "Tags",
+    "constant": "<FIGMA_TAGS_TAG_TOGGLE>",
+    "template": "src/figma/primitives/tag/TagToggle.figma.ts"
+  },
+  {
+    "id": "7:735",
+    "name": "Tag Toggle Group",
+    "type": "COMPONENT",
+    "page": "Tags",
+    "constant": "<FIGMA_TAGS_TAG_TOGGLE_GROUP>",
+    "template": "src/figma/primitives/tag/TagToggleGroup.figma.ts"
+  },
+  {
+    "id": "7:890",
+    "name": "Text",
+    "type": "COMPONENT",
+    "page": "Text",
+    "constant": "<FIGMA_TEXT_TEXT>",
+    "template": "src/figma/primitives/text/Text.figma.ts"
+  },
+  {
+    "id": "7:882",
+    "name": "Text Code",
+    "type": "COMPONENT",
+    "page": "Text",
+    "constant": "<FIGMA_TEXT_TEXT_CODE>",
+    "template": "src/figma/primitives/text/TextCode.figma.ts"
+  },
+  {
+    "id": "7:779",
+    "name": "Text Content Heading",
+    "type": "COMPONENT_SET",
+    "page": "Text",
+    "constant": "<FIGMA_TEXT_TEXT_CONTENT_HEADING>",
+    "template": "src/figma/primitives/text/TextContentHeading.figma.ts"
+  },
+  {
+    "id": "7:786",
+    "name": "Text Content Title",
+    "type": "COMPONENT_SET",
+    "page": "Text",
+    "constant": "<FIGMA_TEXT_TEXT_CONTENT_TITLE>",
+    "template": "src/figma/primitives/text/TextContentTitle.figma.ts"
+  },
+  {
+    "id": "7:888",
+    "name": "Text Emphasis",
+    "type": "COMPONENT",
+    "page": "Text",
+    "constant": "<FIGMA_TEXT_TEXT_EMPHASIS>",
+    "template": "src/figma/primitives/text/TextEmphasis.figma.ts"
+  },
+  {
+    "id": "7:894",
+    "name": "Text Heading",
+    "type": "COMPONENT",
+    "page": "Text",
+    "constant": "<FIGMA_TEXT_TEXT_HEADING>",
+    "template": "src/figma/primitives/text/TextHeading.figma.ts"
+  },
+  {
+    "id": "7:886",
+    "name": "Text Link",
+    "type": "COMPONENT",
+    "page": "Text",
+    "constant": "<FIGMA_TEXT_TEXT_LINK>",
+    "template": "src/figma/primitives/text/TextLink.figma.ts"
+  },
+  {
+    "id": "7:793",
+    "name": "Text Link List",
+    "type": "COMPONENT_SET",
+    "page": "Text",
+    "constant": "<FIGMA_TEXT_TEXT_LINK_LIST>",
+    "template": "src/figma/primitives/text/TextLinkList.figma.ts"
+  },
+  {
+    "id": "7:904",
+    "name": "Text Link List Item",
+    "type": "COMPONENT",
+    "page": "Text",
+    "constant": "<FIGMA_TEXT_TEXT_LINK_LIST_ITEM>",
+    "template": "src/figma/primitives/text/TextLinkListItem.figma.ts"
+  },
+  {
+    "id": "7:832",
+    "name": "Text List",
+    "type": "COMPONENT_SET",
+    "page": "Text",
+    "constant": "<FIGMA_TEXT_TEXT_LIST>",
+    "template": "src/figma/primitives/text/TextList.figma.ts"
+  },
+  {
+    "id": "7:902",
+    "name": "Text List Item",
+    "type": "COMPONENT",
+    "page": "Text",
+    "constant": "<FIGMA_TEXT_TEXT_LIST_ITEM>",
+    "template": "src/figma/primitives/text/TextListItem.figma.ts"
+  },
+  {
+    "id": "7:869",
+    "name": "Text Price",
+    "type": "COMPONENT_SET",
+    "page": "Text",
+    "constant": "<FIGMA_TEXT_TEXT_PRICE>",
+    "template": "src/figma/primitives/text/TextPrice.figma.ts"
+  },
+  {
+    "id": "7:880",
+    "name": "Text Small",
+    "type": "COMPONENT",
+    "page": "Text",
+    "constant": "<FIGMA_TEXT_TEXT_SMALL>",
+    "template": "src/figma/primitives/text/TextSmall.figma.ts"
+  },
+  {
+    "id": "7:884",
+    "name": "Text Strong",
+    "type": "COMPONENT",
+    "page": "Text",
+    "constant": "<FIGMA_TEXT_TEXT_STRONG>",
+    "template": "src/figma/primitives/text/TextStrong.figma.ts"
+  },
+  {
+    "id": "7:892",
+    "name": "Text Subheading",
+    "type": "COMPONENT",
+    "page": "Text",
+    "constant": "<FIGMA_TEXT_TEXT_SUBHEADING>",
+    "template": "src/figma/primitives/text/TextSubheading.figma.ts"
+  },
+  {
+    "id": "7:896",
+    "name": "Text Subtitle",
+    "type": "COMPONENT",
+    "page": "Text",
+    "constant": "<FIGMA_TEXT_TEXT_SUBTITLE>",
+    "template": "src/figma/primitives/text/TextSubtitle.figma.ts"
+  },
+  {
+    "id": "7:900",
+    "name": "Text Title Hero",
+    "type": "COMPONENT",
+    "page": "Text",
+    "constant": "<FIGMA_TEXT_TEXT_TITLE_HERO>",
+    "template": "src/figma/primitives/text/TextTitleHero.figma.ts"
+  },
+  {
+    "id": "7:898",
+    "name": "Text Title Page",
+    "type": "COMPONENT",
+    "page": "Text",
+    "constant": "<FIGMA_TEXT_TEXT_TITLE_PAGE>",
+    "template": "src/figma/primitives/text/TextTitlePage.figma.ts"
+  },
+  {
+    "id": "20:66",
+    "name": "Icon Button Danger",
+    "type": "COMPONENT_SET",
+    "page": "Buttons",
+    "constant": "<FIGMA_BUTTONS_ICON_BUTTON_DANGER>",
+    "template": "src/figma/primitives/IconButtonDanger.figma.ts"
+  }
+]
