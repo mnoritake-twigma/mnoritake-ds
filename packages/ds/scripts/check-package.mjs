@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { createElement } from 'react';
+import { renderToStaticMarkup } from 'react-dom/server';
+import * as ds from '../dist/index.js';
+import * as icons from '../dist/icons.js';
+import { Flex } from '../dist/layout.js';
+import { useMediaQuery } from '../dist/hooks.js';
+assert.equal(typeof useMediaQuery,'function');
+assert.equal(Object.keys(icons).filter(name=>name.startsWith('Icon')).length,287);
+for(const name of ['Button','InputField','SelectField','CheckboxField','Accordion','Tag'])assert.ok(ds[name],name);
+const html=renderToStaticMarkup(createElement(Flex,null,createElement(ds.Button,null,createElement(icons.IconShoppingBag),'Add')));
+assert.match(html,/<button/);assert.match(html,/Add/);assert.match(html,/<svg/);
+assert.match(readFileSync('dist/styles.css','utf8'),/--sds-color-background-default-default/);
+assert.equal(readFileSync('dist/tokens.css','utf8'),readFileSync('../../src/theme.css','utf8'));
+assert.ok(!('ProductsProvider' in ds));
+console.log('Package exports, 287 icons, SSR composition, CSS and token fidelity passed.');

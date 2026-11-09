@@ -1,0 +1,84 @@
+{
+  "name": "@mnoritake-figma/ds",
+  "version": "0.1.0",
+  "description": "React components, icons and design tokens from mnoritake DS, based on Figma SDS.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnoritake-twigma/mnoritake-ds.git",
+    "directory": "packages/ds"
+  },
+  "homepage": "https://github.com/mnoritake-twigma/mnoritake-ds#readme",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./icons": {
+      "types": "./dist/types/icons.d.ts",
+      "import": "./dist/icons.js",
+      "default": "./dist/icons.js"
+    },
+    "./layout": {
+      "types": "./dist/types/layout.d.ts",
+      "import": "./dist/layout.js",
+      "default": "./dist/layout.js"
+    },
+    "./hooks": {
+      "types": "./dist/types/hooks.d.ts",
+      "import": "./dist/hooks.js",
+      "default": "./dist/hooks.js"
+    },
+    "./styles.css": "./dist/styles.css",
+    "./tokens.css": "./dist/tokens.css",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build": "node scripts/prepare-source.mjs && vite build && tsc -p tsconfig.build.json && node scripts/finalize.mjs",
+    "prepack": "npm run build && npm test",
+    "test": "node scripts/check-package.mjs"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "react-aria-components": "^1.10.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "~5.9.3",
+    "vite": "^6.4.5"
+  },
+  "engines": {
+    "node": ">=20.19"
+  },
+  "keywords": [
+    "react",
+    "design-system",
+    "figma",
+    "components",
+    "design-tokens"
+  ]
+}

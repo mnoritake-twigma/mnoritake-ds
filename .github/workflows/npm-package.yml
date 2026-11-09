@@ -1,0 +1,22 @@
+name: npm package checks
+on:
+  push:
+    paths: ['src/**', 'packages/ds/**', '.github/workflows/npm-package.yml']
+  pull_request:
+    paths: ['src/**', 'packages/ds/**', '.github/workflows/npm-package.yml']
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: packages/ds/package-lock.json
+      - run: npm ci
+        working-directory: packages/ds
+      - run: npm pack
+        working-directory: packages/ds
