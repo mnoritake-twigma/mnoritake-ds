@@ -17,7 +17,9 @@
     "script:tokens": "cd scripts/tokens; node --env-file=../../.env app.mjs --skip-rest-api; cd -;",
     "script:tokens:rest": "cd scripts/tokens; node --env-file=../../.env app.mjs; cd -;",
     "codeconnect:parse": "node -e \"require('fs').mkdirSync('.code-connect', {recursive:true})\" && figma connect parse --outFile .code-connect/parsed.json --skip-update-check --exit-on-unreadable-files",
-    "codeconnect:validate": "npm run codeconnect:parse && node scripts/validate-code-connect.mjs && node scripts/check-code-connect-previews.cjs"
+    "codeconnect:validate": "npm run codeconnect:parse && node scripts/validate-code-connect.mjs && node scripts/check-code-connect-previews.cjs",
+    "package:build": "npm --prefix packages/ds ci && npm --prefix packages/ds run build",
+    "package:pack": "npm --prefix packages/ds pack"
   },
   "prettier": {
     "plugins": [

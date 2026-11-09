@@ -37,3 +37,18 @@ Migrated from `mnoritake-figma/mnoritake-ds` on 2026-11-04, preserving its Git h
 The inherited token/icon export scripts contain upstream SDS data. Do not run them to regenerate the PULSE mappings without first updating their inputs. The checked-in PULSE Code Connect configuration and batch are the connection source of truth.
 
 The upstream dependency lockfile is retained. Initial `npm ci` reported 40 dependency advisories (1 low, 18 moderate, 19 high, 2 critical); dependency upgrades are not included in this connection change.
+
+## npm library
+
+The reusable UI is packaged separately as `@mnoritake-figma/ds`. See
+[package usage and scope](packages/ds/README.md).
+
+```sh
+npm run package:build
+cd packages/ds
+npm pack
+```
+
+This leaves the existing app, Storybook and Code Connect workflows in place.
+The package contains primitives, icons, layout, hooks and CSS; demo data,
+authentication providers and provider-coupled compositions are excluded.
